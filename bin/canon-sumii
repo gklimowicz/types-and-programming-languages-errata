@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+
+trap "exit 1" HUP INT QUIT TERM
+
+set -e -u -o pipefail
+
+CMD="$(basename $0)"
+function usage {
+    echo "Usage: $CMD [-hnv] <sumii.txt" 1>&2
+    echo "-h        Print this help message." 1>&2
+    echo "-n        Dry run. Don't execute commands." 1>&2
+    echo "-v        Verbose. Print extra information if appropriate." 1>&2
+    echo "Print a canonical errata file from a Sumii errata file." 1>&2
+}
+
+DRY_RUN=
+VFLAG=
+while getopts hnv\? OPTCHAR; do
+    case $OPTCHAR in
+        h)  usage; exit 0;;
+        n)  DRY_RUN=1;;
+        v)  VFLAG=1;;
+    esac
+done
+
+shift $(($OPTIND - 1))
+
+case $# in
+    0)  ;;
+    *)  usage; exit 1;;
+esac
+
+gawk '
+BEGIN {
+    cur_entry = ""
+    cur_sev = ""
+    getting = 0
+}
+
+function dprint(_s,      _debug) {
+    if (_debug)
+        print _s >> "/dev/stderr"
+}
+
+NR < 14 { next;}
+
+# Identify severity
+# At start of entry; flush previous if it exists
+/^p\. / {
+    # At start of new entry, flush previous entry
+    cur_body = gensub("\a\a*$", "", "g", cur_body)
+
+    if (cur_head != "")
+        print cur_head "%" cur_body
+    cur_head = ""
+    cur_sev = ""
+    getting = 0
+    # fall through
+}
+
+/^p\. / {
+    # At start of entry with very trivial error
+    cur_sev = "vt"
+    # fall through
+}
+
+/^\[\*\] / {
+    # At start of entry with trivial error
+    cur_sev = "t"
+    $0 = substr($0, 5);
+    # fall through
+}
+
+/^\[\*\*\] / {
+    # At start of entry with less trivial error
+    cur_sev = "nt"
+    $0 = substr($0, 6);
+    # fall through
+}
+
+
+# At start of entry, begin collecting
+/^p\. / {
+    # At start of new entry, capture relevant info
+    dprint("  $0 = \"" $0 "\"")
+    cur_page = gensub("^p[.]* ([0-9ivx]*).*", "\\1", 1, $0)
+    dprint("  cur_page: \"" cur_page"\"" )
+    cur_loc = gensub("^[^,:]*[,:] *(.*)", "\\1", 1, $0)
+    dprint("  cur_loc: \"" cur_loc"\"" )
+    cur_body = ""
+    cur_head = cur_page "%" cur_loc "%" cur_sev "%s"
+    dprint("  cur_head: \"" cur_head "\"")
+    getting = 1
+    next
+}
+
+getting != 0 && /^$/ && cur_body == "" {
+    # Skip blank line at start of entry
+    next
+}
+
+getting != 0 {
+    if ($0 == "" && cur_body == "") {
+        dprint("  Skip line " NR)
+        next;
+    }
+    dprint("  Collect " NR ": \"" $0 "\"")
+
+    cur_body = cur_body $0 "\a"
+    next
+}
+
+END {
+}'

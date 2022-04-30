@@ -1,0 +1,253 @@
+Errata for TYPES AND PROGRAMMING LANGUAGES  (1st printing)
+==========================================================
+
+The following errors appear only in the first printing -- they should all
+be corrected in the second printing (Summer, 2002).  The errors listed
+above are also present in the first printing.
+
+
+SUBSTANTIVE ERRORS
+------------------
+
+p xxi
+
+    Erik Hilsdale's name is spelled with a k
+    Fermin Reig's name should be typeset Ferm\'{\i}n
+
+p 71, last line of display near top of page
+
+    There should be a close-paren after the second t1.
+
+p 96, second to last line of T-If case in proof of 8.3.2
+
+    T-If should be E-If
+
+p 97, T-If case in proof of 8.3.3
+
+    E-True and E-False should be E-IfTrue and E-IfFalse
+
+p 107, end of first para
+
+    The annotation on y should be T2, not T1
+
+p 146
+
+    footnote 9 is redundant with Exercise 11.12.2.
+
+p 168, para 3, line 5
+
+    \mu should be \Sigma in "or else it is exactly ..."
+
+    also, in line 7 of the paragraph below Thm 13.5.3
+    (\mu, l \mapsto v_1) should be [l \mapsto v_1]\mu
+
+p 208, chapter quote
+
+    Mannasse should be Manasse
+
+p 226, footnote 1:
+
+    "Other languages, such as  and , ...".  The words "Java" and "C++"
+    are missing
+
+p 268, picture
+
+    the braces in "{nil: , cons: }" should look like "<nil: , cons: >"
+
+p 320, Example 22.2.2
+
+    The last solution is wrong.
+    Correct alternatives include:
+       ( [ X |-> Nat -> Nat -> Nat, Y |-> Nat ],  Nat -> Nat )
+    or ( [ X |-> Nat -> Nat, Y |-> Nat ],  Nat )
+
+p 321, para 1, 3rd to last line
+
+    t_1 should be T_1
+
+p 324, line 3
+
+    "Is a solution for (Gamma, t2, S2, C)"
+    should be
+    "Is a solution for ((Gamma,x:T1), t2, S2, C)"
+
+p 325, lines 3 and 4
+
+    T2 should be S2 in the third line and T1 should be S1 in the fourth
+    line.
+
+p 394
+
+    In the rule S-All, the premise "Gamma |- U1 :: K1" should be omitted.
+
+p 425, lemma 28.4.1, case 1:
+
+    ``Suppose that $\Gamma$ is a'' should be ``Suppose that $\Delta$ is a''
+
+p 497, subcase g1 = succ g1
+
+    The argument for this subcase should conclude "From this derivation,
+                                    w
+    we construct a derivation of g -->* if wrong then g2 else g3, which
+                                                   w
+    after a final instance of E-If-Wrong yields g -->* wrong
+
+p 499, Lemma A.8, E-IfTrue and E-IfFalse cases
+
+    the second t_2 should be t_3
+
+p 499, 4.2.1
+
+    the constructor 'Some' was incorrectly typeset (twice) as \exists
+
+p 503, solution 5.3.8
+
+    t' should be called v
+
+p 505 to 507
+
+    exercise 9.4.1 is misfiled (it can be found between 9.2.3 and 9.3.2)
+
+p 506 solution to 9.3.2
+
+   "....  But this means that size(T1) is strictly greater than size(T1
+   -> T2), ..." should read "... size(T1) is equal to size(T1 -> T2) ..."
+
+  [It is impossible because all types in this system have finite size.]
+
+  Also, there is no formal definition of the "size" of a type.  This can
+  be taken to be the number of nodes in its tree representation.
+
+p 507, solution to 11.3.2
+
+    The conclusion in T-Wildcard should read
+         Gamma |- \_:T1.t2 : T1->T2
+    not
+         Gamma |- \_.t2 : T2
+
+p 538, lines 1 and 8
+
+    $X \subseteq P$ implies $F(X) \subseteq P$
+    should be
+    $F(P) \subseteq P$
+
+    (Fixed in later printings?)
+
+p 541, proof sketch of Lemma A.17
+
+    The first sentence should read "By induction on k = mu-height(S)."
+
+========================================================================
+
+GRAMMATICAL / TYPOGRAPHICAL / COSMETIC ERRORS
+---------------------------------------------
+
+p 15
+
+    The font used for (the set) T in 2.1.1 and 2.1.5 is inconsistent with
+    the rest of the chapter.  Ditto U in 2.1.5.
+
+p 19
+
+    "P(0)" should be slanted in 2.4.1
+
+p 25
+
+    "in under" --> "under"
+    "is does not" --> "does not"
+
+    The paragraph beginning "for brevity" would make more sense if it
+    were moved just before the example higher on the page.
+
+p 27
+
+    concete --> concrete
+
+p 56
+
+    the middle item in the first sample reduction sequence has an extra
+    pair of parens
+
+p 57
+
+    all occurrences of "call by X" should be hyphenated (except,
+    arguably, the first use of "call by need")
+
+p 71, last line
+
+    the RHS should (arguably) be parenthesized to match the corresponding
+    line at the top of the page
+
+p 142
+
+    top line is garbled (some latex markup for index entries got into the
+    text instead)
+
+p 155, first line
+
+    missing "of" between "result" and "the"
+
+p 220, exercise 16.3.4
+
+    15-5 should be 15.5
+
+p 301
+
+    'An sample' -> 'A sample'
+
+p 303, line 13
+
+    "Q \in T \times T" should be "Q \subseteq T \times T"
+
+p 303, line -8
+
+    "we claim that R={...}" -> "we claim that R={...} is such a set"
+
+p 334, para 1, line 1
+
+    "One caveat is here that" should be "One caveat here is that"
+
+p 334, last full paragraph
+
+    "in the right-hand sides of other lets---rather than in their bodies,
+    where nesting of lets is common---" should be cut (in Mairson's example,
+    each let is nested in the previous one's body)
+
+p 338, para 4, 2nd to last line
+
+    "e.g. using by" should be "e.g. by using"
+
+p 433, l -4
+
+      \Gamma U \/ T = J.
+
+    should be replaced with
+
+      \Gamma |-> U <: V.  By the induction hypothesis, \Gamma |- U \/ T = J
+      for some J with \Gamma |- J <: V.  By the third clause in the
+      definition, \Gamma |- S \/ T = J.
+
+p 439, para 3, line 2
+
+    "type constructorstype operators" should be just "type constructors"
+
+p 444, footnote
+
+    wrong font for '
+
+p 488, first sentence of 32.10
+
+    it introduced => it was introduced
+
+p 500, solution 5.2.4
+
+    the names of the arguments m and n should be exchanged
+
+p 512, solution to exercise 12.1.7
+
+    The case for T-If proceeds by induction on T.  This is more complicated
+    than necessary. By the induction, we know R bool t1, R T t2 and R T
+    t3. Since we know R bool t1, we know that t1 halts and is a bool. Hence,
+    the conditional will evaluate either to t2 or to t3. Then, by
+    preservation of R under evaluation, it suffices to show R T t2 or R T
+    t3, but they are immediate by induction.  [Thanks to Edsko de Vries.]

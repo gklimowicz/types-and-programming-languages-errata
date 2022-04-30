@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+
+trap "exit 1" HUP INT QUIT TERM
+
+set -e -u -o pipefail
+
+CMD="$(basename $0)"
+function usage {
+    echo "Usage: ... | $CMD [-hnv]" 1>&2
+    echo "-h        Print this help message." 1>&2
+    echo "-n        Dry run. Don't execute commands." 1>&2
+    echo "-v        Verbose. Print extra information if appropriate." 1>&2
+}
+
+BFLAG=
+DRY_RUN=
+VFLAG=
+while getopts b:hnv\? OPTCHAR; do
+    case $OPTCHAR in
+        b)  BFLAG=1
+            BVAL="$OPTARG";;
+        h)  usage; exit 0;;
+        n)  DRY_RUN=1;;
+        v)  VFLAG=1;;
+    esac
+done
+
+shift $(($OPTIND - 1))
+#echo "$CMD: Remaining arguments are: $*"
+
+case $# in
+    0)  ;;
+    *)  usage; exit 1;;
+esac
+
+echo "Combined errata for Benjamin C. Pierce's book
+Programming Languages and Types.
+
+This file includes all the errata referenced at
+http://www.cis.upenn.edu/~bcpierce/tapl/errata.txt
+and also includes references to Exercise errata
+on the page where where the exercise is located.
+
+Organized by page. Naively sorted within the page.
+
+Text in square brackets lists the source, and
+an indicator of the severity of the note. Following
+Sumii,
+    no mark denotes very trivial errors
+    * denote trivial errors
+    ** denote less trivial errors
+Pierce groups errors by severity, and we attempt
+to annotoe these according to the Sumii style.
+
+"
+
+gawk -F '%' '
+{
+     page = $1
+     loc = $2
+     sev = $3
+     source = $4
+     text = gensub("\a", "\n", "g", $5)
+
+     pretty = "p. " page
+     if (loc != "")
+         pretty = pretty ", " loc
+     if (source == "s")
+         pretty = pretty "    [Sumii"
+     else if (source == "1")
+         pretty = pretty "    [Pierce 1st ed."
+     else if (source == "2")
+         pretty = pretty "    [Pierce 2nd ed."
+     else if (source == "3")
+         pretty = pretty "    [Pierce 3rd ed."
+     else if (source == "r")
+         pretty = pretty "    [Pierce exercises"
+     if (sev == "t")
+         pretty = pretty " *]"
+     else if (sev = "nt")
+         pretty = pretty " **]"
+     else
+         pretty = pretty "]"
+     pretty = pretty "\n" text "\n\n"
+     print pretty
+}
+'

@@ -1,0 +1,113 @@
+#!/usr/bin/env bash
+
+trap "exit 1" HUP INT QUIT TERM
+
+set -e -u -o pipefail
+
+CMD="$(basename $0)"
+function usage {
+    echo "Usage: $CMD [-hnv] -s source <errata-pierce-1.txt" 1>&2
+    echo "-h        Print this help message." 1>&2
+    echo "-n        Dry run. Don't execute commands." 1>&2
+    echo "-s source The source of the errata: 1, 2, 3, r." 1>&2
+    echo "-v        Verbose. Print extra information if appropriate." 1>&2
+    echo "Compute a canonical errata file from a Pierce errata file." 1>&2
+}
+
+DRY_RUN=
+VFLAG=
+while getopts hns:v\? OPTCHAR; do
+    case $OPTCHAR in
+        h)  usage; exit 0;;
+        n)  DRY_RUN=1;;
+        s)  SOURCE=$OPTARG;;
+        v)  VFLAG=1;;
+    esac
+done
+
+shift $(($OPTIND - 1))
+
+case $# in
+    0)  ;;
+    *)  usage; exit 1;;
+esac
+
+gawk -v source=$SOURCE '
+BEGIN {
+    cur_entry = ""
+    standing_sev = ""
+    getting = 0
+    #debug = 1
+}
+
+function dprint(_s) {
+    if (debug)
+        print _s >> "/dev/stderr"
+}
+
+/^==========================/ || /^--------------------------/ {
+    getting = 0
+    next
+}
+
+N  < 25 {
+    dprint("  getting = " getting ", match = " ($0 ~ /^p[.]* [0-9ivx][0-9ivx]*/))
+    dprint("  standing_sev = " standing_sev ", $0 = \"" $0 "\"")
+}
+
+/SUBSTANTIVE ERRORS/ {
+    standing_sev = "nt"
+    dprint("  severity now " standing_sev)
+    getting = 0
+    next
+}
+
+/GRAMMATICAL .*ERRORS/ {
+    standing_sev = "t"
+    dprint("  severity now " standing_sev)
+    getting = 0
+    next
+}
+
+# At start of entry, flush previous and begin collecting
+/^p[.]* [0-9ivx][0-9ivx]*/ {
+    # At start of new entry, flush previous entry
+    cur_body = gensub("\a\a*$", "", "g", cur_body)
+    if (cur_head != "")
+        print cur_head "%" cur_body
+
+    # At start of new entry, capture relevant info
+    dprint("  $0 = \"" $0 "\"")
+    cur_page = gensub("^p[.]* ([0-9ivx][0-9ivx]*).*", "\\1", 1, $0)
+    dprint("  cur_page: \"" cur_page"\"" )
+    cur_loc = gensub("^[^,:]*[,:] *(.*)", "\\1", 1, $0)
+    if (cur_loc == $0)
+       cur_loc = ""
+    dprint("  cur_loc: \"" cur_loc"\"" )
+
+    cur_body = ""
+    cur_head = cur_page "%" cur_loc "%" standing_sev "%" source
+    dprint("  cur_head: \"" cur_head "\"")
+
+    getting = 1
+    next
+}
+
+getting != 0 && /^$/ && cur_body == "" {
+    # Skip blank line at start of entry
+    next
+}
+
+getting != 0 {
+    if ($0 == "" && cur_body == "") {
+        dprint("  Skip line " NR)
+        next;
+    }
+    dprint("  Collect " NR ": \"" $0 "\"")
+
+    cur_body = cur_body $0 "\a"
+    next
+}
+
+END {
+}'
