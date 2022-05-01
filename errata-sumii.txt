@@ -1,1 +1,1168 @@
-../Types and Programming Languages Errata Sumii.txt
+The following errors were found during translation into Japanese, but
+not in the online errata (http://www.cis.upenn.edu/~bcpierce/tapl/errata.txt)
+as of September 2013.
+
+By the way, some errors in the online errata are found in early
+printings (such as the 1st and 2nd) and corrected in the "middle"
+printings (such as the 5th), but not corrected in late printings (such
+as the 9th) nor in the LaTeX/TinkerType source code.
+
+(no mark) very trivial errors
+[*] trivial errors
+[**] less trivial errors
+
+p. xxi, line 14
+
+    "Narciso Marti-Oliet"
+    ->
+    "Narciso Mart\'{\i}-Oliet"
+
+p. 6, line -2
+
+    "Postscript"
+    ->
+    "PostScript"
+
+[*] p. 7, "C#"
+
+    The # should not be superscript, and should be a "number sign"
+    (not a "music sharp sign") according to the official language
+    specification.
+
+p. 11, 1960s, Algol-68
+
+    "(van Wijngaarden et al., 1975)"
+    ->
+    "Van Wijngaarden et al. (1975)"
+
+[*] p. 12, near the middle, "the application of these ideas"
+
+    It is unclear what "these ideas" refer to.
+
+[**] p. 16, Definition 2.1.7, "The codomain or range of R"
+
+    This terminology is not standard.  Usually, "codomain" means only
+    T, while "range" means either T or {t \in T | \exists s. (s,t) \in
+    R} (as defined here), depending on the literature.
+
+p. 28, line -12
+
+    "by condition (2)"
+    ->
+    "by condition 2"
+
+p. 40, line -5
+
+    "containing"
+    ->
+    "satisfying"
+
+p. 45, line 8
+
+    "implementation sections"
+    ->
+    "implementation chapters"
+
+p. 47, near the middle
+
+    "the result of the evaluation function yields no result"
+    ->
+    "the evaluation function yields no result"
+
+p. 52, line -6
+
+    "the function body (\lambda n. if n=0 then 1 else ...)"
+    ->
+    "the function body (if n=0 then 1 else ...)"
+
+[*] p. 57, definition of call-by-value
+
+    Like call-by-name, the call-by-value evaluation strategy also
+    forbids reductions inside abstractions.
+
+    By the way, the online errata
+    (http://www.cis.upenn.edu/~bcpierce/tapl/errata.txt) adds "closed"
+    to the (informal) definition of values here, but not all values
+    are closed according to the formal definitions given in later
+    chapters.
+
+p. 63, line 9
+
+    "Other common datatypes like lists, trees, arrays, and variant
+    records"
+    ->
+    "Other common datatypes like lists, trees, arrays, variants, and
+    records"
+
+p. 67, Figure 5-2
+
+    The last periods in lines 18, 21, and 28 should be removed.
+
+p. 78, line 2
+
+    Add a "," before "x1".
+
+p. 80, line 6
+
+    "([j|->s]t1 [j|->s]t2)"
+    ->
+    "([j|->s]t1) ([j|->s]t2)"
+
+    Also, all the parentheses on the left hand sides of this
+    definition should be in typewriter (heavy) font.
+
+p. 81, line -7
+
+    "deBruijn indices"
+    ->
+    "de Bruijn indices"
+
+[*] p. 104-105, proof of Theorem 9.3.3
+
+    The exercise would be [Recommended, ***].
+
+p. 105, line -10
+
+    "conditions"
+    ->
+    "conditionals"
+
+[*] p. 118, line 2
+
+    "with variables and type variables"
+    ->
+    "with variables"
+
+p. 126, Figure 11-5, E-PairBeta1 and E-PairBeta2
+
+    The "1" and "2" after "." should be in typewriter (heavy) font.
+
+p. 129, line 2
+
+    "t'j"
+    ->
+    "tj'"
+
+p. 130, line 2
+
+    "both tuples and products"
+    ->
+    "both tuples and records"
+
+p. 131, Figure 11-8
+
+    "Matching rules:"
+    ->
+    "Matching rules"
+
+p. 142, line 4
+
+    A space should be removed before |.
+
+p. 151, Lemma 12.1.5
+
+    "v1...,vn"
+    ->
+    "v1,...,vn"
+
+p. 152, line 11
+
+    ",."
+    ->
+    "."
+
+    Also, the parentheses in "(t1 t2)" should be in typewriter (heavy)
+    font.
+
+[**] p. 152, "Tait's strong normalization proof"
+    "Tait's strong normalization proof corresponds exactly
+    to an algorithm for evaluating simply typed terms, known as
+    normalization by evaluation or type-directed partial evaluation"
+
+    Actually, normalization by evaluation (or type-directed partial
+    evaluation) corresponds to _weak_ normalization; see
+    http://www.cse.chalmers.se/~peterd/slides/Leicester.pdf for
+    example.
+
+p. 162, line -3
+
+    "l2" should be in math style.
+
+p. 168, near the middle
+
+    "on the values of all the old locations"
+    ->
+    "on the types of all the old locations"
+
+p. 176, line 10
+
+    "In T-Raise we demand"
+    ->
+    "In T-Exn we demand"
+
+p. 177, line -15, "it falls through to the else clause"
+
+    Perhaps "the wildcard clause" may be more accurate.
+
+p. 183, near the middle
+
+    "where the common fields are identical"
+    ->
+    "where the types of the common fields are identical"
+
+[*] p. 184, near the middle
+
+    Replace "Top" with "Bool" here (the former is not defined yet).
+
+[*] p. 186, Exercise 15.2.4
+
+    Here and in many other places throughout the book, an "arrow type"
+    is used without definition; it means a function type.
+
+[*] p. 190, proof of Theorem 15.3.5, case T-Sub
+
+    "By T-Sub, \Gamma |- t : T"
+    ->
+    "By T-Sub, \Gamma |- t' : T"
+
+[*] p. 191, near the middle
+
+    "{ka=vj a \in 1..m}"
+    ->
+    "{ka=va a \in 1..m}"
+
+    "with |-vj:Ti for each li=kj"
+    ->
+    "with |-va:Ti for each li=ka"
+
+p. 194, line -15
+
+    "\lambda(x:Top)."
+    ->
+    "\lambda x:Top."
+
+[*] p. 203, right-hand side of definition of [[ ]] for (S-RcdPerm)
+
+    "kj:[[Si]]"
+    ->
+    "kj:[[Sj]]"
+
+p. 206, S-Inter4
+
+    It may perhaps be better to add parentheses like:
+    (S->T1) /\ (S->T2)  <:  S->(T1/\T2)
+
+p. 211, Figure 16-1
+
+    The symbols on the top left should be a little larger.
+
+p. 211, Lemma 16.1.1
+
+    "S-Rcd-Width"
+    ->
+    "S-RcdWidth"
+
+    "S-Rcd-Perm"
+    ->
+    "S-RcdPerm"
+
+    (ditto for several other places in this chapter)
+
+[**] p. 215, near the middle
+
+    "the left-hand subderivation has been pushed up"
+    ->
+    "the right-hand subderivation of the original instance of T-App
+    has been pushed up"
+
+[*] p. 237, line -7
+
+    "E-Fix"
+    ->
+    "E-FixBeta"
+
+p. 247, line -3
+
+    "FeatherWeight Java"
+    ->
+    "Featherweight Java"
+
+[*] p. 248, line -1
+
+    It is unknown what "enumerations" mean here.
+
+p. 255, line -8
+
+    "this.f1=f1;...;this.fn=fn;"
+    ->
+    "this.f1=f1;...this.fn=fn;"
+
+p. 260, Exercise 19.4.4
+
+    "Java's raise"
+    ->
+    "Java's throw"
+
+[*] p. 261, line -6
+
+    "cannot perform a downcast"
+    ->
+    "cannot perform a cast"
+
+p. 261, line -5
+
+    "the failing downcast in the latter case"
+    ->
+    "the failing cast"
+
+[*] p. 263, line -9
+
+    "the original used a nondeterministic beta-reduction relation"
+    ->
+    "the original used a nondeterministic reduction relation"
+
+p. 273, line 4
+
+    "fixed-point constructor"
+    ->
+    "fixed-point combinator"
+
+    (This may be intentional, for avoiding repetition.)
+
+p. 278, line 3
+
+    "every datatype definition implicitly introduces a recursive type"
+    ->
+    "every datatype definition may implicitly introduce a recursive
+    type"
+
+    (The former is an overstatement: there _are_ non-recursive
+    datatype definitions such as 'a option, of course.)
+
+p. 279-280, Section 20.4
+
+    "Basic syntactic and semantic properties (without subtyping) are
+    collected in Cardone and Coppo (1991)."
+
+    and
+
+    "Basic syntactic and semantic properties of recursive types
+    without subtyping were established in early papers by Huet (1976)
+    and MacQueen, Plotkin, and Sethi (1986)."
+
+    ->
+
+    "Basic syntactic and semantic properties of recursive types
+    without subtyping were established in early papers by Huet (1976)
+    and MacQueen, Plotkin, and Sethi (1986), and are collected in
+    Cardone and Coppo (1991)."
+
+p. 286, line 5 in the first paragraph of Section 21.3
+
+    "their fixed points"
+    ->
+    "its fixed points"
+
+p. 291, Exercise 21.5.2, "subtyping relations"
+
+    Here (and in a few other places throughout the book), a "subtyping
+    relation" is a synonym of a "subtype relation" (Section 15.2).
+    Note that there is also an "algorithmic subtyping relation"
+    (Definition 16.1.4), which is different.
+
+p. 292, line -10
+
+    "consistent"
+    ->
+    "F-consistent"
+
+p. 294, line -7
+
+    The first "reachable(X)" should be in math style.
+
+[*] p. 303, line 7
+
+    "treeof(S'', T'') = (S', T')"
+    ->
+    "treeof(S'', T'') = treeof(S', T')"
+
+[*] p. 303, line 14, "treeof(\nu Sm)"
+
+    Here, the operator "treeof" is lifted elementwise to sets of
+    pairs.
+
+[*] p. 303, line -14
+
+    Here, "these pairs" mean (S1,T1) and (S2,T2).
+
+[*] p. 308, line 6
+
+    "S = [X<=Q]T"
+    ->
+    "S <= [X<=Q]T"
+
+p. 308, line -9
+
+    "Take S'=T"
+    ->
+    "Take S'=T."
+
+[*] p. 321, near the middle
+
+    "In rule T-App"
+    ->
+    "In rule CT-App"
+
+[*] p. 323, lines 2 and 4
+
+    "Nat->Z = X->Y"
+    ->
+    "X->Y = Nat->Z"
+
+[*] p. 325, line 5
+
+    "X not mentioned in X1, X2, S1, S2, C1, C2"
+    ->
+    "X not mentioned in X1, X2, S1, S2, C1, C2, \Gamma, t1, or t2"
+
+[*] p. 325, lines 20, "so that \sigma' S1 = \sigma1 S1"
+
+    Insert "(similarly, \sigma' S2 = \sigma2 S2)".
+
+[*] p. 327, Figure 22-2
+
+    Notation like \sigma C (for substitution \sigma and constraint set
+    C) means elementewise substitution {(\sigma T) = (\sigma S) | T=S
+    \in C}.
+
+[*] p. 327, Definition 22.4.1
+
+    Here and in other places, the equality of type substitutions is
+    defined in general as: \sigma = \sigma' if \sigma(T) = \sigma'(T)
+    for any type T (rather than as the equality of finite mappings
+    with a common domain).
+
+[*] p. 328, line 8, "\sigma is a unifier for C"
+
+    The term "unifier" has never been defined (though "principal
+    unifier" or "most general unifier" is defined in 22.4.2).  A
+    unifier for constraint set C is a substitution \sigma that
+    satisfies C.
+
+[*] p. 328, line -15
+
+    "unify(C) chooses some pair (S, T) from C"
+    ->
+    "unify(C) chooses some constraint S=T from C"
+
+[*] p. 329, line 8
+
+    "X \in T"
+    ->
+    "X \in FV(T)"
+
+[*] p. 329, Exercise 22.5.2, "Find a principal type"
+
+    Insert "under the empty (or any) typing context".
+
+[*] p. 332, Figure 22-1, CT-App
+
+    "X \not\in X1, X2, T1, T2, C1, C2, \Gamma, t1, or t2"
+    ->
+    "X not mentioned in X1, X2, T1, T2, C1, C2, \Gamma, t1, or t2"
+
+p. 333, line 10
+
+    "Ct-AbsInf"
+    ->
+    "CT-AbsInf"
+
+p. 334, line 1-2
+
+    "variables T1"
+    ->
+    "variables in T1"
+
+p. 334, line 3, "and its environment"
+
+    Recall that a "type environment" is synonymous to a typing context
+    (p. 101, line 22).  The former term (in this sense) is used only a
+    few times throughout the book.
+
+[**] p. 334, near the bottom
+
+    This example is not appropriate - it is slow in OCaml only because
+    of the particular implementation of occurs checks (try
+    "-rectypes") and printing types (insert "ignore").  A better
+    example, due to Jacques Garrigue, is:
+
+    let l0 = ([], [], [], []) in
+    let l1 = (l0, l0, l0, l0) in
+    let l2 = (l1, l1, l1, l1) in
+    ...(snip)...
+    let l9 = (l8, l8, l8, l8) in
+    ignore (l9)
+
+p. 335, line 8, "(r:=(\lambda x:Nat. succ x); (!r)true);"
+
+    Insert a line break after ";" (because the main text that follows
+    talks about "the third line").
+
+p. 335, line -10
+
+    "in"
+    ->
+    ";"
+
+[*] p. 336, line 11
+
+    "X->X"
+    ->
+    "Ref(X->X)"
+
+    "\forall X. X->X"
+    ->
+    "\forall X. Ref(X->X)"
+
+p. 337, line 3
+
+    "Algorithm W (Damas and Milner) of Damas and Milner"
+    ->
+    "Algorithm W of Damas and Milner"
+
+p. 337, line -7
+
+    "Remy"
+    ->
+    "R\'emy"
+
+p. 337, line -4
+
+    "is used solve"
+    ->
+    "is used to solve"
+
+[*] p. 342, line -7
+
+    "for t"
+    ->
+    "for t2"
+
+p. 349, Exercise 23.4.6
+
+    "iszero"
+    ->
+    "iszro"
+
+p. 350, Exercise 23.4.9
+
+    "function pred"
+    ->
+    "function prd"
+
+p. 351, line 6
+
+    "lists easy to write"
+    ->
+    "lists is easy to write"
+
+[**] p. 354, Theorem 23.6.2
+
+    There seems to be confusions among printings: later printings
+    (such as the 9th) have the same error as the 1st and the 2nd,
+    while middle printings (such as the 5th) do not; see the online
+    errata.
+
+[*] p. 355, line -2
+
+    "a subtype T"
+    ->
+    "a subtype of T"
+
+[**] p. 359, line 23
+
+    "Kfoury and Wells (1999) gave the first correct"
+    ->
+    "Kfoury and Wells (1994) gave the first direct"
+
+    where "Kfoury and Wells (1994)" is:
+    http://dx.doi.org/10.1145/182590.182456
+
+p. 360, near the middle
+
+    "by Reynolds (1984, Reynolds and Plotkin, 1993)"
+    ->
+    "by Reynolds (1984), Reynolds and Plotkin (1993)"
+
+[*] p. 371, Exercise 24.2.1
+
+    "Use the List type introduced in Exercise 23.4.3"
+    ->
+    "Use the List type introduced in Section 23.4"
+
+p. 398, line 6
+
+    "l : L"
+    ->
+    "l \in L"
+
+p. 399, near the middle
+
+    "except zsero"
+    ->
+    "except szero"
+
+[*] p. 401, Lemma 26.4.1
+
+    In this chapter, "well-formed" means "well-scoped" (pp. 393-394).
+
+p. 402, line 11, "only in the part of the environment"
+
+    Again, a "type environment" is a synonym of a typing context.
+
+p. 403, line 1
+
+    Insert a (wide) space between "S" and "\Gamma".
+
+[*] p. 403, line 2
+
+    "[X|->P]T"
+    ->
+    "[X|->P]S"
+
+p. 408, line -6
+
+    "Curien and Ghelli (1992, Ghelli, 1990)"
+    ->
+    "Curien and Ghelli (1992; Ghelli, 1990)"
+
+p. 409, line 2
+
+    "Bruce (Bruce, 1991)"
+    ->
+    "Bruce (1991)"
+
+p. 411, line 12
+
+    "SetCounterRep"
+    ->
+    "CounterRep"
+
+p. 412, near the middle
+
+    "be able coerce"
+    ->
+    "be able to coerce"
+
+p. 418, throughout Section 28.1
+
+    "|-" should be "|->" in exposures.
+
+p. 422, line 5-7
+
+    "algorithmic typing statements"
+    ->
+    "algorithmic subtyping statements"
+
+    "original typing statements"
+    ->
+    "original subtyping statements"
+
+p. 426, line 4
+
+    "\Gamma |- S <: Top"
+    ->
+    "\Gamma |-> S <: Top"
+
+p. 426, line 10
+
+    "\Gamma |- U <: Q"
+    ->
+    "\Gamma |-> U <: Q"
+
+p. 429, line 10, "equivalent to \neg S \/ T"
+
+    Insert "(in classical logic)".
+
+p. 431, line 4
+
+    Here, a "subtype statement" means a "subtyping statement".
+
+p. 435, near the middle
+
+    "deBruijn format"
+    ->
+    "de Bruijn format"
+
+[*] p. 436, line 11
+
+    "supertypes T"
+    ->
+    "supertypes of T"
+
+p. 441, line -3
+
+    The left parenthesis should be in typewriter (heavy) font.
+
+p. 444, line -1
+
+    The last ";" should be dropped.
+
+p. 445, line 1
+
+    ";" should be dropped.
+
+p. 453, Lemma 30.3.2, "a well-formed permutation of \Gamma,\Sigma"
+
+    Well-formedness is defined later in p. 459, Definition 30.3.18.
+
+[*] p. 457, proof of Lemma 30.3.13
+
+    "Lemma 30.3.12(1) gives us"
+    ->
+    "Corollary 30.3.11 and Lemma 30.3.12(1) give us"
+
+p. 458, line -11
+
+    "Proposition 30.3.11"
+    ->
+    "Corollary 30.3.11"
+
+[*] p. 459, Definition 30.3.18
+
+    "and \Gamma |- T :: *"
+    ->
+    "and \Gamma1 |- T :: *"
+
+p. 462, near the middle
+
+    "family of types indexed by types."
+    ->
+    "family of types indexed by types"
+
+p. 468, line -7
+
+    "If we let Top[*] = Top and define(maximal elements of higher kinds)"
+    ->
+    "If we let Top[*] = Top and define"
+
+p. 469, Exercise 31.2.1
+
+    Again, "subtype statements" mean "subtyping statements".
+
+[*] p. 475, footnote
+
+    In the implementation fullupdate/core.ml,
+
+    | TmUpdate(_, TmRecord(_,fields), l, v2)
+
+    in function eval1 should be:
+
+    | TmUpdate(_, TmRecord(_,fields), l, v2) when isval ctx v2
+
+[**] p. 484, Figure 32-1
+
+    The following congruence rules should be added:
+
+    t1 ---> t1'
+    ----------------------------
+    t1<-li=t2  --->   t1'<-li=t2
+
+    t2 ---> t2'
+    --------------------------
+    v<-li=t2  --->   v<-li=t2'
+
+p. 484, line -1
+
+    "E-Update"
+    ->
+    "E-UpdateV"
+
+[*] p. 486, first line of Section 32.9
+
+    "In 18.9"
+    ->
+    "In 18.11"
+
+p. 494, Lemma A.1
+
+    The correct statement would be:
+
+    If r->s and r->t, with s \neq t, then either s->t or t->s or there
+    is some term u such that s->u and t->u.
+
+    (The online errata lacks "with s \neq t".)
+
+p. 496, line -7
+
+    "Theorem 3.5.14"
+    ->
+    "The property in Exercise 3.5.14"
+
+p. 498, line -3
+
+    "condition is not a value"
+    ->
+    "conditional is not a value"
+
+[**] p. 499, Proof of Proposition A.9
+
+    The induction does not work in the case t = succ t1, because the
+    number of evaluation steps is _the same_ for t and t1.  A correct
+    proof can be done by induction on the structure of t (though it
+    does not extend to more sophisticated calculi like
+    lambda-calculus), or by proving another lemma like
+
+      if t --> t' and t' ==> v, then t ==> v
+
+    by induction on the derivation of t --> t'.
+
+p. 506, near the middle
+
+    Remove the "(" before "\Gamma".
+
+p. 507, Solution 11.4.1
+
+    "t as T  =  (\lambda x:T. x) t"
+    ->
+    "t as T  =def  (\lambda x:T. x) t"
+
+[**] pp. 509-510, Solution 11.8.2
+
+    This solution does not argue about progress (which is a half of
+    the second problem of this exercise).  The point would be that,
+    thanks to typing, the "match(p,v1)" in E-LetV (Figure 11-8) is
+    always well-defined.
+
+[*] p. 510, near the middle
+
+    "C-Let"
+    ->
+    "T-Let"
+    (twice)
+
+p. 512, near the middle
+
+    "R_T1 t.1"
+    ->
+    "R_T1(t.1)"
+
+[*] p. 512, Solution 12.1.7
+
+    Apply the online errata (for the 1st printing) but replace t1, t2,
+    and t3 with \sigma t1, \sigma t2, and \sigma t3, respectively.
+
+p. 513, line 1
+
+    "R_T2 \sigma t"
+    ->
+    "R_T2(\sigma t)"
+
+p. 513, line 5
+
+    "R_{T1->T2} v2"
+    ->
+    "R_{T1->T2}(v2)"
+
+p. 513, line 6
+
+    "R_{T1->T2} v3"
+    ->
+    "R_{T1->T2}(v3)"
+
+p. 513, line 12, "Let vi be"
+
+    The variable vi is already used in the statement of Lemma 12.1.5.
+    Here, it should perhaps be renamed to, say, wi.
+
+p. 513, Solution 12.1.7, after Case T-Proj1
+
+    Insert: "Case T-Proj2: Similar."
+
+[*] p. 514, line -6
+
+    "rule GC"
+    ->
+    "rule E-GC"
+
+[*] p. 515, 5 (b) i
+
+    "where \mu' is defined"
+    ->
+    "where \mu'' is defined"
+
+[*] p. 516, line 1-2
+
+    "strongly normalizing"
+    ->
+    "normalizing"
+
+    (This language is not even confluent!)
+
+p. 526, Solution 17.3.1
+
+    "Exercise 16.3.2"
+    ->
+    "The Exercise in Proposition 16.3.2"
+
+[**] p. 527, Solution 17.3.1, function "meet"
+
+    The following two cases are missing but necessary:
+
+    | (_, TyTop) -> tyS
+    | (TyTop, _) -> tyT
+
+[**] p. 527-528
+
+    The (local) definition of allFields should be like:
+
+    let allFields =
+      List.map (fun li ->
+        if not(List.mem li labelsS) then
+          (li, List.assoc li fT)
+        else if not(List.mem li labelsT) then
+          (li, List.assoc li fS)
+        else
+          let tySi = List.assoc li fS in
+          let tyTi = List.assoc li fT in
+          (li, meet tySi tyTi))
+        allLabels in
+
+[*] p. 534, line 1
+
+    "Case RC-Cast"
+    ->
+    "Case E-Cast"
+
+[**] p. 539, Solution 21.5.2
+
+    "at most one element"
+    ->
+    "at most one minimal element"
+
+[**] p. 541, Solution 21.8.5
+
+    "two generating sets"
+    ->
+    "two minimal generating sets"
+
+[*] p. 545, CT-Proj
+
+    According to the main text, t0 (appears twice) should be t.
+
+[*] p. 547, Solution 23.4.9
+
+    This solution uses pairs (n-1, n), while the hint of the exercise
+    suggests to use (n, n-1).
+
+[*] p. 550, near the middle
+
+    "R-Beta2"
+    ->
+    "R-TappTabs"
+
+p. 551, line -7
+
+    "A" and "B" should be overlined.
+
+[*] p. 554, Solution 25.2.1, last line
+
+    \uparrow_0^d(T) and \uparrow^d(T) should be swapped.
+
+p. 557, line 15-16
+
+    "type variable bindings"
+    ->
+    "type (and term) variable bindings"
+
+[*] p. 558, near the middle
+
+    "\Gamma |- T2 <: T11"
+    ->
+    "\Gamma |- T2 <: N11"
+
+[**] p. 559, line -6
+
+    "\neg S = \forall X<:S.X"
+    ->
+    "\neg S = S->Top"
+
+    (We are not supposed to use \forall here!  In fact, it suffices to
+    define \neg so that it is just contravariant.)
+
+p. 559, line -6
+
+    "[[X1<:T1,,...,Xn<:Tn]]"
+    ->
+    "[[X1<:T1,...,Xn<:Tn]]"
+
+p. 560, Figure A-2, left, line 2
+
+    "if X \not\in FVS"
+    ->
+    "if X \not\in FV(S)"
+
+p. 560, line -7
+
+    "30.3"
+    ->
+    "30.3.3"
+
+[*] p. 561, near the middle
+
+    "T12'"
+    ->
+    "T12"
+
+    "T2'"
+    ->
+    "T2"
+
+p. 563, Solution 32.7.2 and 32.5.2
+
+    The order of these solutions should be swapped.
+
+[*] p. 566, line -3
+
+    "T1 x T2"
+    ->
+    "T11 x T12"
+
+p. 568, Abramsky, Samson, Radha Jagadeesan, and Pasquale Malacaria
+
+    "Full abstraction for pcf"
+    ->
+    "Full abstraction for PCF"
+
+p. 571, Brandt, Michael and Fritz Henglein
+
+    "Proc. 3d Int'l Conf. on"
+    ->
+    "Proc. 3rd Int'l Conf. on"
+
+    (In fact, the actual title of the volume is: "Typed Lambda Calculi
+    and Applications, Third International Conference on Typed Lambda
+    Calculi and Applications, TLCA '97, Nancy, France, April 2-4,
+    1997, Proceedings")
+
+p. 572
+
+    "Canning, Peter, William Cook, Walt Hill, and Walter Olthoff"
+    ->
+    "Canning, Peter, William Cook, Walter Hill, and Walter Olthoff"
+
+p. 572, Canning, Peter, William Cook, Walter Hill, Walter Olthoff, and John Mitchell
+
+    "F-bounded quantification for object-oriented programming"
+    ->
+    "F-bounded polymorphism for object-oriented programming"
+
+p. 572, Canning, Peter, Walt Hill, and Walter Olthoff
+
+    Although the original technical report is unavailable, its correct
+    title (according to references from other papers including the
+    authors') seems to be: "Towards a kernel language for
+    object-oriented programming".
+
+p. 577, Drossopoulou, Sophia, Susan Eisenbach, and Sarfraz Khurshid
+
+    "7(1):3-24"
+    ->
+    "5(1):3-24"
+
+    Also, since this is a paper (not a book), the title here should
+    perhaps be (un)capitalized like: "Is the Java type system sound?"
+
+p. 579, lines -7 and -4
+
+    "Garrigue, Jaques"
+    ->
+    "Garrigue, Jacques"
+
+p. 580, Grattan-Guinness, Ivor
+
+    Since this is a book (not a paper), the title should be in the
+    headline style: "The Search for Mathematical Roots, 1870-1940:
+    Logics, Set Theories and the Foundations of Mathematics from
+    Cantor through Russell to Goedel".
+
+p. 582, Hennessy, Matthew
+
+    "A Semantics of"
+    ->
+    "The Semantics of"
+
+    An online copy of this book is currently available from:
+    https://www.scss.tcd.ie/Matthew.Hennessy/slexternal/resources/sembookWiley.pdf
+
+p. 584, line 3
+
+    "1,2, ...,\omega"
+    ->
+    "1,2,...,\omega"
+
+p. 586, line 9
+
+    "DEXPTIME" should be in regular (not small) capital letters.
+
+p. 589, McKinna, James and Robert Pollack
+
+    "Pure Type Sytems formalized"
+    ->
+    "Pure Type Systems formalized"
+
+p. 595, Plasmeijer, Marinus J.
+
+    "CLEAN: a programming environment"
+    ->
+    "CLEAN: A programming environment"
+
+p. 596, Remy, Didier and Jerome Vouillon
+
+    "Theory And Practice of Object Systems"
+    ->
+    "Theory and Practice of Object Systems"
+
+    Even though it is often abbreviated as "TAPOS", this seems to be
+    the official name of the journal:
+
+    http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1096-9942
+
+p. 599, Studer, Thomas
+
+    "featherweight java"
+    ->
+    "Featherweight Java"
+
+p. 600, line 7
+
+    "TIL : A type-directed"
+    ->
+    "TIL: A type-directed"
+
+p. 603, Yelick, Kathy, ...
+
+    "Titanium: a high-performance"
+    ->
+    "Titanium: A high-performance"
+
+p. 608, right
+
+    The item "equi-recursive types" appears twice; it should be
+    unified.
+
+p. 610, left, "garbage collection"
+
+    "158-165"
+    ->
+    "158"
+
+p. 615, under "references"
+
+    The subitems "and subtyping" and "subtyping" should be unified.
+
+p. 621, left
+
+    "Top[K]"
+    ->
+    "Top[K] (maximal elements of higher kinds)"
