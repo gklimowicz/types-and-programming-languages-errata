@@ -105,7 +105,9 @@ getting != 0 {
     }
     dprint("  Collect " NR ": \"" $0 "\"")
 
-    cur_body = cur_body $0 "\a"
+    text = gensub(/^ {1,4}/, "", 1, $0)
+
+    cur_body = cur_body text "\a"
     next
 }
 

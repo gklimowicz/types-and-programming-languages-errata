@@ -50,38 +50,50 @@ Sumii,
     * denote trivial errors
     ** denote less trivial errors
 Pierce groups errors by severity, and we attempt
-to annotoe these according to the Sumii style.
+to annotate these according to the Sumii style.
 
+
+The first section of this file lists all the errors that I'm aware of in
+the third printing of TAPL (errata for earlier printings are below).  If
+you find one that's not listed here, please let me know!
+
+---------
+
+in the source code for the checkers: In the TmTimesFloat case of the "pr"
+  function in syntax.ml in most of the checkers, the first occurrence of
+  "printtm_ATerm false ctx t2" should be "printtm_ATerm false ctx t1".
+
+in the source code for checkers involving exceptions: The eval1 function is
+missing cases for reducting "try" statements.  Something like this should be
+added:
+  | TmTry(fi,v1,t2) when isval ctx v1 ->
+      v1
+  | TmTry(fi,TmError(_),t2) ->
+      t2
+  | TmTry(fi,t1,t2) ->
+      let t1' = eval1 ctx t1 in
+      TmTry(fi, t1', t2)
+
+in the source code for checkers involving subtyping and polymorphism: The
+TyAll case of the join function is wrong.  It reads:
+
+  | (TyAll(tyX,tyS1,tyS2),TyAll(_,tyT1,tyT2)) ->
+       if not(subtype ctx tyS1 tyT1 && subtype ctx tyT1 tyS1) then TyTop
+       else
+         let ctx' = addbinding ctx tyX (TyVarBind(tyT1)) in
+         TyAll(tyX,tyS1,join ctx' tyT1 tyT2)
+
+  The last line should read: TyAll(tyX,tyS1,join ctx' tyS2 tyT2).
+
+-----------
 "
 
-gawk -F '%' '
+gawk -i "$(dirname "$0")/pretty_loc.awk" -F '%' '
 {
-     page = $1
-     loc = $2
-     sev = $3
-     source = $4
-     text = gensub("\a", "\n", "g", $5)
+     text = gensub("\a([^\a])", "\n    \\1", "g", $5)
+     text = gensub("\a", "\n", "g", text)
 
-     pretty = "p. " page
-     if (loc != "")
-         pretty = pretty ", " loc
-     if (source == "s")
-         pretty = pretty "    [Sumii"
-     else if (source == "1")
-         pretty = pretty "    [Pierce 1st ed."
-     else if (source == "2")
-         pretty = pretty "    [Pierce 2nd ed."
-     else if (source == "3")
-         pretty = pretty "    [Pierce 3rd ed."
-     else if (source == "r")
-         pretty = pretty "    [Pierce exercises"
-     if (sev == "t")
-         pretty = pretty " *]"
-     else if (sev = "nt")
-         pretty = pretty " **]"
-     else
-         pretty = pretty "]"
-     pretty = pretty "\n" text "\n\n"
-     print pretty
+     print pretty_loc($1, $2, $3, $4) "\n    " text "\n\n"
+
 }
 '
