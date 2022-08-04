@@ -18,7 +18,7 @@ function pretty_loc(page, loc, sev, source,    pretty) {
          pretty = pretty " [Pierce exercises"
      if (sev == "t")
          pretty = pretty " *]"
-     else if (sev = "nt")
+     else if (sev == "nt")
          pretty = pretty " **]"
      else
          pretty = pretty "]"
