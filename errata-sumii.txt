@@ -94,6 +94,12 @@ p. 63, line 9
     "Other common datatypes like lists, trees, arrays, variants, and
     records"
 
+p. 63, Exercise 5.2.8:
+
+    "c x (c y (c z n)))"
+    -> (remove the last closing parenthesis)
+    "c x (c y (c z n))"
+
 p. 67, Figure 5-2
 
     The last periods in lines 18, 21, and 28 should be removed.
@@ -174,10 +180,9 @@ p. 152, line 11
     Also, the parentheses in "(t1 t2)" should be in typewriter (heavy)
     font.
 
-[**] p. 152, "Tait's strong normalization proof"
-    "Tait's strong normalization proof corresponds exactly
-    to an algorithm for evaluating simply typed terms, known as
-    normalization by evaluation or type-directed partial evaluation"
+[**] p. 152, "Tait's strong normalization proof corresponds exactly
+to an algorithm for evaluating simply typed terms, known as
+normalization by evaluation or type-directed partial evaluation"
 
     Actually, normalization by evaluation (or type-directed partial
     evaluation) corresponds to _weak_ normalization; see
@@ -275,6 +280,10 @@ p. 211, Lemma 16.1.1
     "the right-hand subderivation of the original instance of T-App
     has been pushed up"
 
+p. 220, (TA-If)
+
+    All the turnstyles "|-" should be "|->".
+
 [*] p. 237, line -7
 
     "E-Fix"
@@ -296,6 +305,11 @@ p. 255, line -8
     "this.f1=f1;...;this.fn=fn;"
     ->
     "this.f1=f1;...this.fn=fn;"
+
+[*] p. 256, line -3, "the <: relation is antisymmetric"
+(Cf. p. 257, Exercise 19.4.1 and p. 530, Solution 19.4.1)
+
+    In addition, C should not be equal to D in any class declaration class C extends D {...}.
 
 p. 260, Exercise 19.4.4
 
@@ -1051,7 +1065,8 @@ p. 572
     ->
     "Canning, Peter, William Cook, Walter Hill, and Walter Olthoff"
 
-p. 572, Canning, Peter, William Cook, Walter Hill, Walter Olthoff, and John Mitchell
+p. 572, Canning, Peter, William Cook, Walter Hill, Walter Olthoff, and
+John Mitchell
 
     "F-bounded quantification for object-oriented programming"
     ->
