@@ -23,7 +23,7 @@ p. xxi [Pierce 1st ed. **]
     Fermin Reig's name should be typeset Ferm\'{\i}n
 
 
-p. xxi, line 14 [Sumii]
+p. xxi, line 14 [Sumii **]
     "Narciso Marti-Oliet"
     ->
     "Narciso Mart\'{\i}-Oliet"
@@ -62,45 +62,45 @@ p. 27 [Pierce 1st ed. *]
     concete --> concrete
 
 
-p. 28, 11th line from the bottom [Pierce 3rd ed.]
+p. 28, 11th line from the bottom [Pierce 3rd ed. **]
      S_i should be S_j (that is, it should read "t_1, t_2, t_3 are elements
      of S_j")
 
 
-p. 28, line -12 [Sumii]
+p. 28, line -12 [Sumii **]
     "by condition (2)"
     ->
     "by condition 2"
 
 
-p. 35, after the displayed program fragment [Pierce 3rd ed.]
+p. 35, after the displayed program fragment [Pierce 3rd ed. **]
     "using E-If" should be "using E-IfTrue"
 
 
-p. 40, Exercise 3.5.13 [Pierce 3rd ed.]
-    The solution has an error; see p. 494, solution to exercise 3.5.13 [Pierce 3rd ed.]
+p. 40, Exercise 3.5.13 [Pierce 3rd ed. **]
+    The solution has an error; see p. 494, solution to exercise 3.5.13 [Pierce 3rd ed. **]
 
 
-p. 40, Exercise 3.5.13 [Sumii]
-    The solution has an error; see p. 494, Lemma A.1 [Sumii]
+p. 40, Exercise 3.5.13 [Sumii **]
+    The solution has an error; see p. 494, Lemma A.1 [Sumii **]
 
 
-p. 40, line -5 [Sumii]
+p. 40, line -5 [Sumii **]
     "containing"
     ->
     "satisfying"
 
 
-p. 41, definition 3.5.15 [Pierce 3rd ed.]
+p. 41, definition 3.5.15 [Pierce 3rd ed. **]
     the word "closed" is not needed here.
 
 
-p. 42, Exercise 3.5.16 [Pierce 3rd ed.]
-    The solution has an error; see p. 496, solution to 3.5.16 [Pierce 3rd ed.]
+p. 42, Exercise 3.5.16 [Pierce 3rd ed. **]
+    The solution has an error; see p. 496, solution to 3.5.16 [Pierce 3rd ed. **]
 
 
-p. 42, Exercise 3.5.16 [Sumii]
-    The solution has an error; see p. 496, line -7 [Sumii]
+p. 42, Exercise 3.5.16 [Sumii **]
+    The solution has an error; see p. 496, line -7 [Sumii **]
 
 
 p. 42, Exercise 3.5.16 [Pierce 1st ed. **]
@@ -111,21 +111,21 @@ p. 42, Exercise 3.5.17 [Pierce 1st ed. **]
     The solution has an error; see p. 499, Lemma A.8, E-IfTrue and E-IfFalse cases [Pierce 1st ed. **]
 
 
-p. 42, Exercise 3.5.17 [Pierce 3rd ed.]
-    The solution has an error; see p. 499, end of A.8 [Pierce 3rd ed.]
+p. 42, Exercise 3.5.17 [Pierce 3rd ed. **]
+    The solution has an error; see p. 499, end of A.8 [Pierce 3rd ed. **]
 
 
 p. 42, Exercise 3.5.17 [Sumii **]
     The solution has an error; see p. 499, Proof of Proposition A.9 [Sumii **]
 
 
-p. 45, line 8 [Sumii]
+p. 45, line 8 [Sumii **]
     "implementation sections"
     ->
     "implementation chapters"
 
 
-p. 47, near the middle [Sumii]
+p. 47, near the middle [Sumii **]
     "the result of the evaluation function yields no result"
     ->
     "the evaluation function yields no result"
@@ -135,7 +135,7 @@ p. 49, Exercise 4.2.1 [Pierce 1st ed. **]
     The solution has an error; see p. 499, 4.2.1 [Pierce 1st ed. **]
 
 
-p. 53, footnote 2: [Pierce 3rd ed.]
+p. 53, footnote 2: [Pierce 3rd ed. **]
     "the behaviors of some languages constructs"
     should be
     "the behaviors of some language constructs"
@@ -151,7 +151,7 @@ p. 57 [Pierce 1st ed. *]
     arguably, the first use of "call by need")
 
 
-p. 57, definition of call-by-value [Pierce 3rd ed.]
+p. 57, definition of call-by-value [Pierce 3rd ed. **]
     "a term that is finished computing..." should be "a CLOSED term that is
     finished computing..."
 
@@ -171,7 +171,7 @@ p. 61, Exercise 5.2.4 [Pierce 1st ed. *]
     The solution has an error; see p. 500, solution 5.2.4 [Pierce 1st ed. *]
 
 
-p. 63, line 9 [Sumii]
+p. 63, line 9 [Sumii **]
     "Other common datatypes like lists, trees, arrays, and variant
     records"
     ->
@@ -179,25 +179,19 @@ p. 63, line 9 [Sumii]
     records"
 
 
-p. 63, exercise 5.2.8 [Pierce 3rd ed.]
+p. 63, exercise 5.2.8 [Pierce 3rd ed. **]
     fold_left should be fold_right
 
 
-p. 63, Exercise 5.2.8: [Sumii]
-    "c x (c y (c z n)))"
-    -> (remove the last closing parenthesis)
-    "c x (c y (c z n))"
+p. 66, Exercise 5.2.11 [Pierce 3rd ed. **]
+    The solution has an error; see p. 501, solution to 5.2.11 [Pierce 3rd ed. **]
 
 
-p. 66, Exercise 5.2.11 [Pierce 3rd ed.]
-    The solution has an error; see p. 501, solution to 5.2.11 [Pierce 3rd ed.]
-
-
-p. 67, Figure 5-2 [Sumii]
+p. 67, Figure 5-2 [Sumii **]
     The last periods in lines 18, 21, and 28 should be removed.
 
 
-p. 67, figure 5-2 [Pierce 3rd ed.]
+p. 67, figure 5-2 [Pierce 3rd ed. **]
     the reduction from
        times c3 (fct (prd c3))
     to
@@ -215,12 +209,12 @@ p. 71, last line [Pierce 1st ed. *]
     line at the top of the page
 
 
-p. 72, line 5 [Pierce 3rd ed.]
+p. 72, line 5 [Pierce 3rd ed. **]
     "values can be arbitrary lambda-terms" should read "values can be
     arbitrary lambda-abstractions"
 
 
-p. 73, exercise 5.3.8 [Pierce 3rd ed.]
+p. 73, exercise 5.3.8 [Pierce 3rd ed. **]
     4.2.2 should be 3.5.17
 
 
@@ -228,31 +222,31 @@ p. 73, Exercise 5.3.8 [Pierce 1st ed. **]
     The solution has an error; see p. 503, solution 5.3.8 [Pierce 1st ed. **]
 
 
-p. 76, exercise 6.1.1 [Pierce 3rd ed.]
+p. 76, exercise 6.1.1 [Pierce 3rd ed. **]
     the combinator called "plus" does not implement the addition function
     (the solution in the back is correct, though)
 
 
-p. 78, Exercise 6.1.5 [Pierce 3rd ed.]
-    The solution has an error; see p. 503, solution to 6.1.5 [Pierce 3rd ed.]
+p. 78, Exercise 6.1.5 [Pierce 3rd ed. **]
+    The solution has an error; see p. 503, solution to 6.1.5 [Pierce 3rd ed. **]
 
 
-p. 78, line 2 [Sumii]
+p. 78, line 2 [Sumii **]
     Add a "," before "x1".
 
 
-p. 78, second line of 6.2 [Pierce 3rd ed.]
+p. 78, second line of 6.2 [Pierce 3rd ed. **]
     "To to" -> "To do"
 
 
-p. 79, exercise 6.2.3 [Pierce 3rd ed.]
+p. 79, exercise 6.2.3 [Pierce 3rd ed. **]
     The statement to be shown is not quite true for d < 0.  To be true for
     n>=0 and any integral d, it should be "Show that, if t is an n-term and,
     if d < 0, the free variables of t are all at least |d|, then <shift t up
     by d above cutoff c> is a (max(n+d,0))-term."
 
 
-p. 80, line 6 [Sumii]
+p. 80, line 6 [Sumii **]
     "([j|->s]t1 [j|->s]t2)"
     ->
     "([j|->s]t1) ([j|->s]t2)"
@@ -261,7 +255,7 @@ p. 80, line 6 [Sumii]
     definition should be in typewriter (heavy) font.
 
 
-p. 87 [Pierce 3rd ed.]
+p. 87 [Pierce 3rd ed. **]
     "As in chapter 3" should be "As in chapter 4"
 
 
@@ -279,7 +273,7 @@ p. 97, T-If case in proof of 8.3.3 [Pierce 1st ed. **]
     E-True and E-False should be E-IfTrue and E-IfFalse
 
 
-p. 102, footnote 1: [Pierce 3rd ed.]
+p. 102, footnote 1: [Pierce 3rd ed. **]
     "they will be sometimes be elided"
     should be
     "they will sometimes be elided"
@@ -293,11 +287,11 @@ p. 104, proof of Theorem 9.3.3 [Sumii *]
     The exercise would be [Recommended, ***].
 
 
-p. 104, Exercise 9.3.3 [Sumii]
-    The solution has an error; see p. 506, near the middle [Sumii]
+p. 104, Exercise 9.3.3 [Sumii **]
+    The solution has an error; see p. 506, near the middle [Sumii **]
 
 
-p. 106, proof of 9.3.8 [Pierce 3rd ed.]
+p. 106, proof of 9.3.8 [Pierce 3rd ed. **]
     "By induction on a derivation" should be "By induction on the depth
     of a derivation"
 
@@ -306,8 +300,8 @@ p. 107, end of first para [Pierce 1st ed. **]
     The annotation on y should be T2, not T1
 
 
-p. 107, Preservation theorem (and other preservation theorems throughout [Pierce 3rd ed.]
-       the text)
+p. 107, Preservation theorem (and other preservation theorems throughout
+       the text) [Pierce 3rd ed. **]
 
     The theorem is correct as stated, but we don't really need this
     powerful a version of it for present purposes.  Since (a) we have
@@ -317,19 +311,19 @@ p. 107, Preservation theorem (and other preservation theorems throughout [Pierce
     Gamma ever to be non-empty.
 
 
-p. 108, Exercise 9.3.10 [Pierce 3rd ed.]
-    The solution has an error; see p. 507, solution to 9.3.10 [Pierce 3rd ed.]
+p. 108, Exercise 9.3.10 [Pierce 3rd ed. **]
+    The solution has an error; see p. 507, solution to 9.3.10 [Pierce 3rd ed. **]
 
 
 p. 108, Exercise 9.4.1 [Pierce 1st ed. **]
     The solution has an error; see p. 505 [Pierce 1st ed. **]
 
 
-p. 110, part 2 of Theorem 9.5.2 [Pierce 3rd ed.]
+p. 110, part 2 of Theorem 9.5.2 [Pierce 3rd ed. **]
     the first "typed" should be "untyped"
 
 
-p. 114, l -10 [Pierce 3rd ed.]
+p. 114, l -10 [Pierce 3rd ed. **]
     "the variable type @'a@" should be "the type variable @'a@"
 
 
@@ -339,7 +333,7 @@ p. 118, line 2 [Sumii *]
     "with variables"
 
 
-p. 120, Theorem 11.3.1 [Pierce 3rd ed.]
+p. 120, Theorem 11.3.1 [Pierce 3rd ed. **]
     The first part of the Theorem doesn't hold, for a couple of reasons.
     First, the statement in the "if" direction should read:
 
@@ -357,45 +351,45 @@ p. 121, Exercise 11.3.2 [Pierce 1st ed. **]
     The solution has an error; see p. 507, solution to 11.3.2 [Pierce 1st ed. **]
 
 
-p. 123, Exercise 11.4.1 [Pierce 3rd ed.]
-    The solution has an error; see p. 508, solution to 11.4.1 [Pierce 3rd ed.]
+p. 123, Exercise 11.4.1 [Pierce 3rd ed. **]
+    The solution has an error; see p. 508, solution to 11.4.1 [Pierce 3rd ed. **]
 
 
-p. 126, Figure 11-5, E-PairBeta1 and E-PairBeta2 [Sumii]
+p. 126, Figure 11-5, E-PairBeta1 and E-PairBeta2 [Sumii **]
     The "1" and "2" after "." should be in typewriter (heavy) font.
 
 
-p. 129, line 2 [Sumii]
+p. 129, line 2 [Sumii **]
     "t'j"
     ->
     "tj'"
 
 
-p. 130, line 2 [Sumii]
+p. 130, line 2 [Sumii **]
     "both tuples and products"
     ->
     "both tuples and records"
 
 
-p. 130, second paragraph, second sentence [Pierce 3rd ed.]
+p. 130, second paragraph, second sentence [Pierce 3rd ed. **]
     "affect" should be "effect"
 
 
-p. 130, Exercise 11.8.2 [Pierce 3rd ed.]
-    The solution has an error; see p. 510, top of page [Pierce 3rd ed.]
+p. 130, Exercise 11.8.2 [Pierce 3rd ed. **]
+    The solution has an error; see p. 510, top of page [Pierce 3rd ed. **]
 
 
 p. 130, Exercise 11.8.2 [Sumii *]
     The solution has an error; see p. 510, near the middle [Sumii *]
 
 
-p. 131, Figure 11-8 [Sumii]
+p. 131, Figure 11-8 [Sumii **]
     "Matching rules:"
     ->
     "Matching rules"
 
 
-p. 136, figure 11-11: [Pierce 3rd ed.]
+p. 136, figure 11-11: [Pierce 3rd ed. **]
     the value syntax for variants is missing.  It should read:
 
        v ::= ...
@@ -404,7 +398,7 @@ p. 136, figure 11-11: [Pierce 3rd ed.]
     also, "field labels" would be better called "variant labels" here.
 
 
-p. 137, paragraph 3 [Pierce 3rd ed.]
+p. 137, paragraph 3 [Pierce 3rd ed. **]
     "finite mappings" should be "partial mappings"
 
 
@@ -413,15 +407,15 @@ p. 142 [Pierce 1st ed. *]
     text instead)
 
 
-p. 142, line 4 [Sumii]
+p. 142, line 4 [Sumii **]
     A space should be removed before |.
 
 
-p. 144, line 4 [Pierce 3rd ed.]
+p. 144, line 4 [Pierce 3rd ed. **]
     T should be T1
 
 
-p. 146 [Pierce 3rd ed.]
+p. 146 [Pierce 3rd ed. **]
     Lists are not implemented in the fullsimple checker.
 
 
@@ -429,47 +423,10 @@ p. 146 [Pierce 1st ed. **]
     footnote 9 is redundant with Exercise 11.12.2.
 
 
-p. 151, Lemma 12.1.5 [Sumii]
+p. 151, Lemma 12.1.5 [Sumii **]
     "v1...,vn"
     ->
     "v1,...,vn"
-
-
-p. 152, line 1 [Pierce 3rd ed.]
-    The first heavy open paren should be dropped.
-
-
-p. 152, line 3 [Pierce 3rd ed.]
-    The first close paren should be in typewriter (heavy) font.
-
-
-p. 152, Exercise 12.1.7 [Pierce 3rd ed.]
-    "Figure 3-1" should be "Figure 8-1"
-
-
-p. 152, Exercise 12.1.7 [Sumii *]
-    The solution has an error; see p. 512, Solution 12.1.7 [Sumii *]
-
-
-p. 152, Exercise 12.1.7 [Sumii]
-    The solution has an error; see p. 513, line 1 [Sumii]
-
-
-p. 152, Exercise 12.1.7 [Sumii]
-    The solution has an error; see p. 513, line 5 [Sumii]
-
-
-p. 152, Exercise 12.1.7 [Sumii]
-    The solution has an error; see p. 513, line 6 [Sumii]
-
-
-p. 152, Exercise 12.1.7 [Sumii]
-    The solution has an error; see p. 513, line 12, "Let vi be" [Sumii]
-
-
-p. 152, "Tait's strong normalization proof corresponds exactly [Sumii **]
-    to an algorithm for evaluating simply typed terms, known as
-    normalization by evaluation or type-directed partial evaluation"
 
     Actually, normalization by evaluation (or type-directed partial
     evaluation) corresponds to _weak_ normalization; see
@@ -477,11 +434,49 @@ p. 152, "Tait's strong normalization proof corresponds exactly [Sumii **]
     example.
 
 
+p. 152, line 1 [Pierce 3rd ed. **]
+    The first heavy open paren should be dropped.
+
+
+p. 152, Exercise 12.1.7 [Pierce 3rd ed. **]
+    "Figure 3-1" should be "Figure 8-1"
+
+
+p. 152, Exercise 12.1.7 [Sumii *]
+    The solution has an error; see p. 512, Solution 12.1.7 [Sumii *]
+
+
+p. 152, Exercise 12.1.7 [Sumii **]
+    The solution has an error; see p. 513, line 1 [Sumii **]
+
+
+p. 152, Exercise 12.1.7 [Sumii **]
+    The solution has an error; see p. 513, line 5 [Sumii **]
+
+
+p. 152, Exercise 12.1.7 [Sumii **]
+    The solution has an error; see p. 513, line 6 [Sumii **]
+
+
+p. 152, Exercise 12.1.7 [Sumii **]
+    The solution has an error; see p. 513, line 12, "Let vi be" [Sumii **]
+
+
+p. 152, line 3 [Pierce 3rd ed. **]
+    The first close paren should be in typewriter (heavy) font.
+
+
+p. 152, "Tait's strong normalization proof" [Sumii **]
+    "Tait's strong normalization proof corresponds exactly
+    to an algorithm for evaluating simply typed terms, known as
+    normalization by evaluation or type-directed partial evaluation"
+
+
 p. 155, first line [Pierce 1st ed. *]
     missing "of" between "result" and "the"
 
 
-p. 162, 166 [Pierce 3rd ed.]
+p. 162, 166 [Pierce 3rd ed. **]
     The notation for extending stores with new mappings is a little
     inconsistent ("[l |-> v2]\mu" in some places and "\mu, l |-> v1" in
     others).  Note, though, that "[l |-> v2]\mu" assumes l \in \dom(\mu)
@@ -489,28 +484,28 @@ p. 162, 166 [Pierce 3rd ed.]
     notations is useful).
 
 
-p. 162, Exercise 13.3.1 [Pierce 3rd ed.]
-    The solution has an error; see p. 515, solution to 13.3.1 [Pierce 3rd ed.]
+p. 162, Exercise 13.3.1 [Pierce 3rd ed. **]
+    The solution has an error; see p. 515, solution to 13.3.1 [Pierce 3rd ed. **]
 
 
-p. 162, line -3 [Sumii]
+p. 162, line -3 [Sumii **]
     "l2" should be in math style.
 
 
-p. 163 [Pierce 3rd ed.]
+p. 163 [Pierce 3rd ed. **]
     The last l_1 on the pge should be l_2
 
 
-p. 166 [Pierce 3rd ed.]
+p. 166 [Pierce 3rd ed. **]
     In the syntax of stores, = should be \mapsto
 
 
-p. 167, definition 13.5.1 (and following material) [Pierce 3rd ed.]
+p. 167, definition 13.5.1 (and following material) [Pierce 3rd ed. **]
     It would be better to fix an empty context here rather than allowing an
     arbitrary one.  (See the comment above for p. 107.)
 
 
-p. 168, near the middle [Sumii]
+p. 168, near the middle [Sumii **]
     "on the values of all the old locations"
     ->
     "on the types of all the old locations"
@@ -527,35 +522,35 @@ p. 169, Exercise 13.5.8 [Sumii *]
     The solution has an error; see p. 516, line 1-2 [Sumii *]
 
 
-p. 176, line 10 [Sumii]
+p. 176, line 10 [Sumii **]
     "In T-Raise we demand"
     ->
     "In T-Exn we demand"
 
 
-p. 177, l 8 [Pierce 3rd ed.]
+p. 177, l 8 [Pierce 3rd ed. **]
     "l_n:t_n" -> "l_n:T_n"
 
 
-p. 177, line -15, "it falls through to the else clause" [Sumii]
+p. 177, line -15, "it falls through to the else clause" [Sumii **]
     Perhaps "the wildcard clause" may be more accurate.
 
 
-p. 184 [Pierce 3rd ed.]
+p. 184 [Pierce 3rd ed. **]
     In "most variants of Abadi and Cardelli's object calculus omit width
     subtyping", "width" should be replaced by "depth."
 
 
-p. 188, Exercise 15.3.1 [Pierce 3rd ed.]
-    The solution has an error; see p. 519, top two displays [Pierce 3rd ed.]
+p. 188, Exercise 15.3.1 [Pierce 3rd ed. **]
+    The solution has an error; see p. 519, top two displays [Pierce 3rd ed. **]
 
 
-p. 189, proof of 15.3.4 [Pierce 3rd ed.]
+p. 189, proof of 15.3.4 [Pierce 3rd ed. **]
     "By induction on typing derivations" should be "By induction on the
     depth of the given typing derivation".
 
 
-p. 190, Lemma 15.3.6, part 2 [Pierce 3rd ed.]
+p. 190, Lemma 15.3.6, part 2 [Pierce 3rd ed. **]
     {k_j=v_j ^ {a \in 1..m}} should be {k_a=v_a ^ {a \in 1..m}}
 
 
@@ -569,7 +564,7 @@ p. 191, near the middle [Sumii *]
     "with |-va:Ti for each li=ka"
 
 
-p. 203 [Pierce 3rd ed.]
+p. 203 [Pierce 3rd ed. **]
     in the last rule, S-RcdPerm, the part below the vertical line, instead
     of
           {l_i:S_i ...} <: {l_i:T_i ...}
@@ -583,16 +578,16 @@ p. 203, right-hand side of definition of [[ ]] for (S-RcdPerm) [Sumii *]
     "kj:[[Sj]]"
 
 
-p. 204, second equation in definition of [[ - ]] [Pierce 3rd ed.]
+p. 204, second equation in definition of [[ - ]] [Pierce 3rd ed. **]
     \x:T1  should be \x:T1.t2
 
 
-p. 206, first sentence of third para [Pierce 3rd ed.]
+p. 206, first sentence of third para [Pierce 3rd ed. **]
     In "The inhabitants of the intersection type T_1 /\ T_2 are terms
     belonging to both S and T", S and T should be T_1 and T_2.
 
 
-p. 206, S-Inter4 [Sumii]
+p. 206, S-Inter4 [Sumii **]
     It may perhaps be better to add parentheses like:
     (S->T1) /\ (S->T2)  <:  S->(T1/\T2)
 
@@ -601,27 +596,16 @@ p. 208, chapter quote [Pierce 1st ed. **]
     Mannasse should be Manasse
 
 
-p. 211, Figure 16-1 [Sumii]
+p. 211, Figure 16-1 [Sumii **]
     The symbols on the top left should be a little larger.
-
-
-p. 215, near the middle [Sumii **]
-    "the left-hand subderivation has been pushed up"
-    ->
-    "the right-hand subderivation of the original instance of T-App
-    has been pushed up"
-
-
-p. 220, (TA-If) [Sumii]
-    All the turnstyles "|-" should be "|->".
 
 
 p. 220, exercise 16.3.4 [Pierce 1st ed. *]
     15-5 should be 15.5
 
 
-p. 220, Exercise 16.4.1 [Pierce 3rd ed.]
-    The solution has an error; see p. 526, solution to 16.4.1 [Pierce 3rd ed.]
+p. 220, Exercise 16.4.1 [Pierce 3rd ed. **]
+    The solution has an error; see p. 526, solution to 16.4.1 [Pierce 3rd ed. **]
 
 
 p. 226, footnote 1: [Pierce 1st ed. **]
@@ -629,7 +613,7 @@ p. 226, footnote 1: [Pierce 1st ed. **]
     are missing
 
 
-p. 232, line -3 [Pierce 3rd ed.]
+p. 232, line -3 [Pierce 3rd ed. **]
     "C++ and ," should be "C++ and Java,"
 
 
@@ -639,7 +623,7 @@ p. 237, line -7 [Sumii *]
     "E-FixBeta"
 
 
-p. 243, line 3 [Pierce 3rd ed.]
+p. 243, line 3 [Pierce 3rd ed. **]
     Ref InstrCounter <: Ref SetCounter
     should be
     Source InstrCounter <: Source SetCounter
@@ -649,16 +633,10 @@ p. 248, line -1 [Sumii *]
     It is unknown what "enumerations" mean here.
 
 
-p. 255, line -8 [Sumii]
+p. 255, line -8 [Sumii **]
     "this.f1=f1;...;this.fn=fn;"
     ->
     "this.f1=f1;...this.fn=fn;"
-
-
-p. 256, line -3, "the <: relation is antisymmetric" [Sumii *]
-    (Cf. p. 257, Exercise 19.4.1 and p. 530, Solution 19.4.1)
-
-    In addition, C should not be equal to D in any class declaration class C extends D {...}.
 
 
 p. 261, line -6 [Sumii *]
@@ -677,7 +655,7 @@ p. 268, picture [Pierce 1st ed. **]
     the braces in "{nil: , cons: }" should look like "<nil: , cons: >"
 
 
-p. 273, line 4 [Sumii]
+p. 273, line 4 [Sumii **]
     "fixed-point constructor"
     ->
     "fixed-point combinator"
@@ -685,23 +663,23 @@ p. 273, line 4 [Sumii]
     (This may be intentional, for avoiding repetition.)
 
 
-p. 273, first paragraph [Pierce 3rd ed.]
+p. 273, first paragraph [Pierce 3rd ed. **]
     the erasure of the fix combinator defined here is not quite the same as
     the fix defined on p. 65: this one is missing the abstractions on y
     (which are needed to make it work in the call-by-value setting).
 
 
-p. 273, sentence immediately below definition of diverge function [Pierce 3rd ed.]
+p. 273, sentence immediately below definition of diverge function [Pierce 3rd ed. **]
     repeated "can"
 
 
-p. 274, definition of fixD [Pierce 3rd ed.]
+p. 274, definition of fixD [Pierce 3rd ed. **]
     This is actually an implementation of the call by name fixed point
     combinator (Y), not the call by value one defined on page 65 (that one
     can also be encoded using recursive types, though).
 
 
-p. 278, line 3 [Sumii]
+p. 278, line 3 [Sumii **]
     "every datatype definition implicitly introduces a recursive type"
     ->
     "every datatype definition may implicitly introduce a recursive
@@ -711,7 +689,7 @@ p. 278, line 3 [Sumii]
     datatype definitions such as 'a option, of course.)
 
 
-p. 279, Section 20.4 [Sumii]
+p. 279, Section 20.4 [Sumii **]
     "Basic syntactic and semantic properties (without subtyping) are
     collected in Cardone and Coppo (1991)."
 
@@ -746,30 +724,30 @@ p. 284, Exercise 21.1.9 [Pierce 1st ed. **]
     The solution has an error; see p. 538, lines 1 and 8 [Pierce 1st ed. **]
 
 
-p. 286, line 5 in the first paragraph of Section 21.3 [Sumii]
+p. 286, line 5 in the first paragraph of Section 21.3 [Sumii **]
     "their fixed points"
     ->
     "its fixed points"
 
 
-p. 287, Exercise 21.3.4 [Pierce 3rd ed.]
-    The solution has an error; see p. 539, solution to 21.3.4 [Pierce 3rd ed.]
+p. 287, Exercise 21.3.4 [Pierce 3rd ed. **]
+    The solution has an error; see p. 539, solution to 21.3.4 [Pierce 3rd ed. **]
 
 
-p. 291, Exercise 21.5.2, "subtyping relations" [Sumii]
+p. 291, Exercise 21.5.2, "subtyping relations" [Sumii **]
     Here (and in a few other places throughout the book), a "subtyping
     relation" is a synonym of a "subtype relation" (Section 15.2).
     Note that there is also an "algorithmic subtyping relation"
     (Definition 16.1.4), which is different.
 
 
-p. 292, line -10 [Sumii]
+p. 292, line -10 [Sumii **]
     "consistent"
     ->
     "F-consistent"
 
 
-p. 299, proof of 21.7.4 [Pierce 3rd ed.]
+p. 299, proof of 21.7.4 [Pierce 3rd ed. **]
     "Observe that reachable_{S_r}(S, T) \subseteq subtrees(S) * subtrees(T)"
     does't take into account contravariance in the function subtyping rule,
     such that the line should be changed to: "Observe that reachable_{S_r}(S,
@@ -798,7 +776,7 @@ p. 308, line 6 [Sumii *]
     "S <= [X<=Q]T"
 
 
-p. 308, last line [Pierce 3rd ed.]
+p. 308, last line [Pierce 3rd ed. **]
     In "Take S' = [Y -> \mu Y.S']S_2 ...", the last S' should be T'.
 
 
@@ -824,8 +802,8 @@ p. 325, lines 3 and 4 [Pierce 1st ed. **]
     line.
 
 
-p. 325, Exercise 22.3.9 [Pierce 3rd ed.]
-    The solution has an error; see p. 542, solution to 22.3.9 [Pierce 3rd ed.]
+p. 325, Exercise 22.3.9 [Pierce 3rd ed. **]
+    The solution has an error; see p. 542, solution to 22.3.9 [Pierce 3rd ed. **]
 
 
 p. 332, Figure 22-1, CT-App [Sumii *]
@@ -834,7 +812,7 @@ p. 332, Figure 22-1, CT-App [Sumii *]
     "X not mentioned in X1, X2, T1, T2, C1, C2, \Gamma, t1, or t2"
 
 
-p. 333, line 10 [Sumii]
+p. 333, line 10 [Sumii **]
     "Ct-AbsInf"
     ->
     "CT-AbsInf"
@@ -844,7 +822,7 @@ p. 334, para 1, line 1 [Pierce 1st ed. *]
     "One caveat is here that" should be "One caveat here is that"
 
 
-p. 334, line 1-2 [Sumii]
+p. 334, line 1-2 [Sumii **]
     "variables T1"
     ->
     "variables in T1"
@@ -870,7 +848,7 @@ p. 334, near the bottom [Sumii **]
     ignore (l9)
 
 
-p. 335, line 8, "(r:=(\lambda x:Nat. succ x); (!r)true);" [Sumii]
+p. 335, line 8, "(r:=(\lambda x:Nat. succ x); (!r)true);" [Sumii **]
     Insert a line break after ";" (because the main text that follows
     talks about "the third line").
 
@@ -885,13 +863,13 @@ p. 336, line 11 [Sumii *]
     "\forall X. Ref(X->X)"
 
 
-p. 337, line 3 [Sumii]
+p. 337, line 3 [Sumii **]
     "Algorithm W (Damas and Milner) of Damas and Milner"
     ->
     "Algorithm W of Damas and Milner"
 
 
-p. 337, line -7 [Sumii]
+p. 337, line -7 [Sumii **]
     "Remy"
     ->
     "R\'emy"
@@ -901,7 +879,7 @@ p. 338, para 4, 2nd to last line [Pierce 1st ed. *]
     "e.g. using by" should be "e.g. by using"
 
 
-p. 339, second sentence below the definition of multiple doubling functions [Pierce 3rd ed.]
+p. 339, second sentence below the definition of multiple doubling functions [Pierce 3rd ed. **]
      "If we want apply"
 
     should be
@@ -915,7 +893,7 @@ p. 342, line -7 [Sumii *]
     "for t2"
 
 
-p. 342, near bottom [Pierce 3rd ed.]
+p. 342, near bottom [Pierce 3rd ed. **]
     In addition to
 
       We continue the convention (5.3.4) that the names of (term or type)
@@ -927,27 +905,27 @@ p. 342, near bottom [Pierce 3rd ed.]
     $\Gamma$.
 
 
-p. 349, Exercise 23.4.6 [Sumii]
+p. 349, Exercise 23.4.6 [Sumii **]
     "iszero"
     ->
     "iszro"
 
 
-p. 349, Exercise 23.4.6 [Pierce 3rd ed.]
-    The solution has an error; see p. 546, solution to 23.4.6 [Pierce 3rd ed.]
+p. 349, Exercise 23.4.6 [Pierce 3rd ed. **]
+    The solution has an error; see p. 546, solution to 23.4.6 [Pierce 3rd ed. **]
 
 
-p. 350, Exercise 23.4.9 [Sumii]
+p. 350, Exercise 23.4.9 [Sumii **]
     "function pred"
     ->
     "function prd"
 
 
-p. 354, second para [Pierce 3rd ed.]
+p. 354, second para [Pierce 3rd ed. **]
     "A term M" should be "A term m"
 
 
-p. 354, definition of partial type erasure [Pierce 3rd ed.]
+p. 354, definition of partial type erasure [Pierce 3rd ed. **]
     The definition of Pfenning's partial erasure function is not quite
     right.  The correct definition (with slightly different syntax) appears
     here:
@@ -963,7 +941,7 @@ p. 354, Theorem 23.6.2 [Pierce 2nd ed. **]
     still to be open.
 
 
-p. 356, exercise 23.6.3 [Pierce 3rd ed.]
+p. 356, exercise 23.6.3 [Pierce 3rd ed. **]
     We part (1) is not actually useful later; it can be dropped (except for
     the definition of exposed).  (2) should be used instead of (1) in the
     proof of (4).
@@ -984,7 +962,7 @@ p. 359, line 23 [Sumii **]
     http://dx.doi.org/10.1145/182590.182456
 
 
-p. 371, line 1 [Pierce 3rd ed.]
+p. 371, line 1 [Pierce 3rd ed. **]
     ATD should be ADT
 
 
@@ -1002,7 +980,7 @@ p. 394 [Pierce 1st ed. **]
     In the rule S-All, the premise "Gamma |- U1 :: K1" should be omitted.
 
 
-p. 398, line 6 [Sumii]
+p. 398, line 6 [Sumii **]
     "l : L"
     ->
     "l \in L"
@@ -1012,11 +990,11 @@ p. 401, Lemma 26.4.1 [Sumii *]
     In this chapter, "well-formed" means "well-scoped" (pp. 393-394).
 
 
-p. 402, line 11, "only in the part of the environment" [Sumii]
+p. 402, line 11, "only in the part of the environment" [Sumii **]
     Again, a "type environment" is a synonym of a typing context.
 
 
-p. 402, Proof of 26.4.8 [Pierce 3rd ed.]
+p. 402, Proof of 26.4.8 [Pierce 3rd ed. **]
     In the case for S-TVar, if Y=X, then [X -> P]S = P (not Q), which
     requires G |- P <: Q (from the premise) to reach the desired result.
 
@@ -1027,32 +1005,32 @@ p. 403, line 2 [Sumii *]
     "[X|->P]S"
 
 
-p. 404, proof of 26.4.13 [Pierce 3rd ed.]
+p. 404, proof of 26.4.13 [Pierce 3rd ed. **]
     In the second subcase of the argument for T-TApp, the reference to 26.4.6
     should instead be to 26.4.9.
 
 
-p. 405, proof of 26.4.14 (near the end) [Pierce 3rd ed.]
+p. 405, proof of 26.4.14 (near the end) [Pierce 3rd ed. **]
     The -> in \forall X<:T_1 -> S_2 should be a dot.
 
 
-p. 405, proof of 26.4.15 [Pierce 3rd ed.]
+p. 405, proof of 26.4.15 [Pierce 3rd ed. **]
     The E-TApp1 should be E-TApp.
 
 
-p. 408, line -6 [Sumii]
+p. 408, line -6 [Sumii **]
     "Curien and Ghelli (1992, Ghelli, 1990)"
     ->
     "Curien and Ghelli (1992; Ghelli, 1990)"
 
 
-p. 409, line 2 [Sumii]
+p. 409, line 2 [Sumii **]
     "Bruce (Bruce, 1991)"
     ->
     "Bruce (1991)"
 
 
-p. 411 [Pierce 3rd ed.]
+p. 411 [Pierce 3rd ed. **]
     The whole of chapter 27 is not very convincing.  The purpose in using
     Fsub is supposedly to enable us to create the method table just once per
     class, rather than once per object.  The code indeed manages to have it
@@ -1075,29 +1053,29 @@ p. 411 [Pierce 3rd ed.]
       http://www.cs.uwm.edu/classes/cs790/types-f2003/fullfomsubref.tar.gz
 
 
-p. 411, line 12 [Sumii]
+p. 411, line 12 [Sumii **]
     "SetCounterRep"
     ->
     "CounterRep"
 
 
-p. 412, near the middle [Sumii]
+p. 412, near the middle [Sumii **]
     "be able coerce"
     ->
     "be able to coerce"
 
 
-p. 412, footnote [Pierce 3rd ed.]
+p. 412, footnote [Pierce 3rd ed. **]
     The description of method lookup in real-world OO languages is
     misleadingly simplistic: real implementations do things that are much
     fancier and more efficient than this.
 
 
-p. 418, throughout Section 28.1 [Sumii]
+p. 418, throughout Section 28.1 [Sumii **]
     "|-" should be "|->" in exposures.
 
 
-p. 422, line 5-7 [Sumii]
+p. 422, line 5-7 [Sumii **]
     "algorithmic typing statements"
     ->
     "algorithmic subtyping statements"
@@ -1107,7 +1085,7 @@ p. 422, line 5-7 [Sumii]
     "original subtyping statements"
 
 
-p. 423, definition 28.3.4 [Pierce 3rd ed.]
+p. 423, definition 28.3.4 [Pierce 3rd ed. **]
     The weight of a subtyping statement should be defined as the *sum* (not
     the max) of the weights of S and T.
 
@@ -1120,23 +1098,23 @@ p. 425, lemma 28.4.1, case 1: [Pierce 1st ed. **]
     ``Suppose that $\Gamma$ is a'' should be ``Suppose that $\Delta$ is a''
 
 
-p. 426, line 4 [Sumii]
+p. 426, line 4 [Sumii **]
     "\Gamma |- S <: Top"
     ->
     "\Gamma |-> S <: Top"
 
 
-p. 426, line 10 [Sumii]
+p. 426, line 10 [Sumii **]
     "\Gamma |- U <: Q"
     ->
     "\Gamma |-> U <: Q"
 
 
-p. 429, line 10, "equivalent to \neg S \/ T" [Sumii]
+p. 429, line 10, "equivalent to \neg S \/ T" [Sumii **]
     Insert "(in classical logic)".
 
 
-p. 431, line 4 [Sumii]
+p. 431, line 4 [Sumii **]
     Here, a "subtype statement" means a "subtyping statement".
 
 
@@ -1158,22 +1136,21 @@ p. 436, line 11 [Sumii *]
 
 p. 436, Exercise 28.7.2 [Sumii **]
     The solution has an error; see p. 559, line -6 [Sumii **]
-    and p. 559, line -6 [Sumii]
 
 
 p. 439, para 3, line 2 [Pierce 1st ed. *]
     "type constructorstype operators" should be just "type constructors"
 
 
-p. 441, line -3 [Sumii]
+p. 441, line -3 [Sumii **]
     The left parenthesis should be in typewriter (heavy) font.
 
 
-p. 444, Exercise 29.1.1 [Sumii]
-    The solution has an error; see p. 560, Figure A-2, left, line 2 [Sumii]
+p. 444, Exercise 29.1.1 [Sumii **]
+    The solution has an error; see p. 560, Figure A-2, left, line 2 [Sumii **]
 
 
-p. 444, line -1 [Sumii]
+p. 444, line -1 [Sumii **]
     The last ";" should be dropped.
 
 
@@ -1181,7 +1158,7 @@ p. 444, footnote [Pierce 1st ed. *]
     wrong font for '
 
 
-p. 445, line 1 [Sumii]
+p. 445, line 1 [Sumii **]
     ";" should be dropped.
 
 
@@ -1201,28 +1178,28 @@ p. 459, Definition 30.3.18 [Sumii *]
     "and \Gamma1 |- T :: *"
 
 
-p. 461 [Pierce 3rd ed.]
+p. 461 [Pierce 3rd ed. **]
     The type operator "Class" is not actually used in Chapter 32.
 
 
-p. 462, para 2 [Pierce 3rd ed.]
+p. 462, para 2 [Pierce 3rd ed. **]
     "abstraction \x:T.t_2 is a family of terms [x <- s]t_1"
     should end "[x <- s]t_2"
 
 
-p. 462, near the middle [Sumii]
+p. 462, near the middle [Sumii **]
     "family of types indexed by types."
     ->
     "family of types indexed by types"
 
 
-p. 468, line -7 [Sumii]
+p. 468, line -7 [Sumii **]
     "If we let Top[*] = Top and define(maximal elements of higher kinds)"
     ->
     "If we let Top[*] = Top and define"
 
 
-p. 469, exericse 31.2.1 [Pierce 3rd ed.]
+p. 469, exericse 31.2.1 [Pierce 3rd ed. **]
     The exercise is correct as stated, but it would have been more
     interesting if instead of (or in addition to) "FB <: FB" it had asked
     whether "FA <: FB" holds. Also, in the second and third parts from the
@@ -1250,7 +1227,13 @@ p. 486, first line of Section 32.9 [Sumii *]
 p. 488, first sentence of 32.10 [Pierce 1st ed. *]
     it introduced => it was introduced
 
-p. 494, solution to exercise 3.5.13 [Pierce 3rd ed.]
+    If r->s and r->t, with s \neq t, then either s->t or t->s or there
+    is some term u such that s->u and t->u.
+
+    (The online errata lacks "with s \neq t".)
+
+
+p. 494, solution to exercise 3.5.13 [Pierce 3rd ed. **]
     the diamond lemma as stated is false: In the case where r->s by
     E-IfFalse and r->t by E-Funny2, we have t->s, rather than s->u and
     t->u for any u.  It should be restated as follows:
@@ -1262,22 +1245,17 @@ p. 494, solution to exercise 3.5.13 [Pierce 3rd ed.]
     refined to take the modified lemma into account.
 
 
-p. 494, Lemma A.1 [Sumii]
+p. 494, Lemma A.1 [Sumii **]
     The correct statement would be:
 
-    If r->s and r->t, with s \neq t, then either s->t or t->s or there
-    is some term u such that s->u and t->u.
 
-    (The online errata lacks "with s \neq t".)
-
-
-p. 496, line -7 [Sumii]
+p. 496, line -7 [Sumii **]
     "Theorem 3.5.14"
     ->
     "The property in Exercise 3.5.14"
 
 
-p. 496, solution to 3.5.16 [Pierce 3rd ed.]
+p. 496, solution to 3.5.16 [Pierce 3rd ed. **]
     To fully capture the informal claim that "the original and new
     semantics agree," Proposition A.2 should be augmented with another
     (almost obvious) property:
@@ -1300,8 +1278,10 @@ p. 499, 4.2.1 [Pierce 1st ed. **]
 p. 499, Lemma A.8, E-IfTrue and E-IfFalse cases [Pierce 1st ed. **]
     the second t_2 should be t_3
 
+      if t --> t' and t' ==> v, then t ==> v
 
-p. 499, end of A.8 [Pierce 3rd ed.]
+
+p. 499, end of A.8 [Pierce 3rd ed. **]
     both occurrences (in cases E-IfTrue and E-IfFalse) of "then t2 else t2"
     should be "then t2 else t3"
 
@@ -1313,8 +1293,6 @@ p. 499, Proof of Proposition A.9 [Sumii **]
     does not extend to more sophisticated calculi like
     lambda-calculus), or by proving another lemma like
 
-      if t --> t' and t' ==> v, then t ==> v
-
     by induction on the derivation of t --> t'.
 
 
@@ -1322,7 +1300,7 @@ p. 500, solution 5.2.4 [Pierce 1st ed. *]
     the names of the arguments m and n should be exchanged
 
 
-p. 501, solution to 5.2.11 [Pierce 3rd ed.]
+p. 501, solution to 5.2.11 [Pierce 3rd ed. **]
     in the second to last line of the solution, sumlist should be sumlist'
 
 
@@ -1330,7 +1308,7 @@ p. 503, solution 5.3.8 [Pierce 1st ed. **]
     t' should be called v
 
 
-p. 503, solution to 6.1.5 [Pierce 3rd ed.]
+p. 503, solution to 6.1.5 [Pierce 3rd ed. **]
     the subscripts in the third and sixth clauses should be just "Gamma",
     not "Gamma,x"
 
@@ -1349,15 +1327,13 @@ p. 506 [Pierce 1st ed. **]
     be taken to be the number of nodes in its tree representation.
 
 
-p. 506, near the middle [Sumii]
+p. 506, near the middle [Sumii **]
     Remove the "(" before "\Gamma".
 
 
-p. 507, solution to 9.3.10 [Pierce 3rd ed.]
+p. 507, solution to 9.3.10 [Pierce 3rd ed. **]
     The term given doesn't actually reduce under the call-by-value
     rules.  A better example would be:
-
-        (\x:Bool->Bool. \y:Bool. y) (\z:Bool. true true)
 
 
 p. 507, solution to 11.3.2 [Pierce 1st ed. **]
@@ -1366,12 +1342,14 @@ p. 507, solution to 11.3.2 [Pierce 1st ed. **]
     not
          Gamma |- \_.t2 : T2
 
+        (\x:Bool->Bool. \y:Bool. y) (\z:Bool. true true)
 
-p. 508, solution to 11.4.1 [Pierce 3rd ed.]
+
+p. 508, solution to 11.4.1 [Pierce 3rd ed. **]
     The third "x" on the second line should be deleted.
 
 
-p. 510, top of page [Pierce 3rd ed.]
+p. 510, top of page [Pierce 3rd ed. **]
     The "\in" in the conclusion of rule P-Rcd' should be ":"
 
 
@@ -1387,30 +1365,30 @@ p. 512, Solution 12.1.7 [Sumii *]
     and t3 with \sigma t1, \sigma t2, and \sigma t3, respectively.
 
 
-p. 513, line 1 [Sumii]
+p. 513, line 1 [Sumii **]
     "R_T2 \sigma t"
     ->
     "R_T2(\sigma t)"
 
 
-p. 513, line 5 [Sumii]
+p. 513, line 5 [Sumii **]
     "R_{T1->T2} v2"
     ->
     "R_{T1->T2}(v2)"
 
 
-p. 513, line 6 [Sumii]
+p. 513, line 6 [Sumii **]
     "R_{T1->T2} v3"
     ->
     "R_{T1->T2}(v3)"
 
 
-p. 513, line 12, "Let vi be" [Sumii]
+p. 513, line 12, "Let vi be" [Sumii **]
     The variable vi is already used in the statement of Lemma 12.1.5.
     Here, it should perhaps be renamed to, say, wi.
 
 
-p. 515, solution to 13.3.1 [Pierce 3rd ed.]
+p. 515, solution to 13.3.1 [Pierce 3rd ed. **]
      The restriction to finite memories is not absolutely necessary -- we
      can also talk about garbage collecting an infinite memory.  But it
      makes part 5b more interesting
@@ -1440,7 +1418,7 @@ p. 516, line 1-2 [Sumii *]
     (This language is not even confluent!)
 
 
-p. 519, top two displays [Pierce 3rd ed.]
+p. 519, top two displays [Pierce 3rd ed. **]
     the derivations should say
 
          "\Gamma |- t : S"    and  "\Gamma |- t : U"
@@ -1450,7 +1428,7 @@ p. 519, top two displays [Pierce 3rd ed.]
          "\Gamma |- t \in S"  and  "\Gamma |- t \in U"
 
 
-p. 526, solution to 16.4.1 [Pierce 3rd ed.]
+p. 526, solution to 16.4.1 [Pierce 3rd ed. **]
      The 'if' typing rule (+ alternative) uses normal turnstiles; it should
      use algorithmic turnstiles.
 
@@ -1463,7 +1441,7 @@ p. 538, lines 1 and 8 [Pierce 1st ed. **]
     (Fixed in later printings?)
 
 
-p. 539, solution to 21.3.4 [Pierce 3rd ed.]
+p. 539, solution to 21.3.4 [Pierce 3rd ed. **]
     "the set pairs R = {(T(pi),T(pi)) | pi in {1,2}*}"
     should be
     "the set of pairs R = {(Q,Q) | Q a subtree of T}"
@@ -1480,12 +1458,12 @@ p. 541, proof sketch of Lemma A.17 [Pierce 1st ed. **]
     The first sentence should read "By induction on k = mu-height(S)."
 
 
-p. 542, solution to 22.3.9 [Pierce 3rd ed.]
+p. 542, solution to 22.3.9 [Pierce 3rd ed. **]
     The end of the proposed lemma should read "... then every type variable
     mentioned in T or C is mentioned in Gamma, t, or F\F'."
 
 
-p. 546, solution to 23.4.6 [Pierce 3rd ed.]
+p. 546, solution to 23.4.6 [Pierce 3rd ed. **]
     false and true should be fls and tru
 
 
@@ -1508,13 +1486,13 @@ p. 559, line -6 [Sumii **]
     define \neg so that it is just contravariant.)
 
 
-p. 559, line -6 [Sumii]
+p. 559, line -6 [Sumii **]
     "[[X1<:T1,,...,Xn<:Tn]]"
     ->
     "[[X1<:T1,...,Xn<:Tn]]"
 
 
-p. 560, Figure A-2, left, line 2 [Sumii]
+p. 560, Figure A-2, left, line 2 [Sumii **]
     "if X \not\in FVS"
     ->
     "if X \not\in FV(S)"
@@ -1536,13 +1514,13 @@ p. 566, line -3 [Sumii *]
     "T11 x T12"
 
 
-p. 568, Abramsky, Samson, Radha Jagadeesan, and Pasquale Malacaria [Sumii]
+p. 568, Abramsky, Samson, Radha Jagadeesan, and Pasquale Malacaria [Sumii **]
     "Full abstraction for pcf"
     ->
     "Full abstraction for PCF"
 
 
-p. 571, Brandt, Michael and Fritz Henglein [Sumii]
+p. 571, Brandt, Michael and Fritz Henglein [Sumii **]
     "Proc. 3d Int'l Conf. on"
     ->
     "Proc. 3rd Int'l Conf. on"
@@ -1553,28 +1531,26 @@ p. 571, Brandt, Michael and Fritz Henglein [Sumii]
     1997, Proceedings")
 
 
-p. 572 [Sumii]
-    "Canning, Peter, William Cook, Walt Hill, and Walter Olthoff"
+p. 572, Canning, Peter, William Cook, Walter Hill, Walter Olthoff, and John Mitchell [Sumii **]
+    "F-bounded quantification for object-oriented programming"
     ->
-    "Canning, Peter, William Cook, Walter Hill, and Walter Olthoff"
+    "F-bounded polymorphism for object-oriented programming"
 
 
-p. 572, Canning, Peter, Walt Hill, and Walter Olthoff [Sumii]
+p. 572, Canning, Peter, Walt Hill, and Walter Olthoff [Sumii **]
     Although the original technical report is unavailable, its correct
     title (according to references from other papers including the
     authors') seems to be: "Towards a kernel language for
     object-oriented programming".
 
 
-p. 572, Canning, Peter, William Cook, Walter Hill, Walter Olthoff, and [Sumii]
-    John Mitchell
-
-    "F-bounded quantification for object-oriented programming"
+p. 572, p. 572 [Sumii **]
+    "Canning, Peter, William Cook, Walt Hill, and Walter Olthoff"
     ->
-    "F-bounded polymorphism for object-oriented programming"
+    "Canning, Peter, William Cook, Walter Hill, and Walter Olthoff"
 
 
-p. 577, Drossopoulou, Sophia, Susan Eisenbach, and Sarfraz Khurshid [Sumii]
+p. 577, Drossopoulou, Sophia, Susan Eisenbach, and Sarfraz Khurshid [Sumii **]
     "7(1):3-24"
     ->
     "5(1):3-24"
@@ -1583,20 +1559,20 @@ p. 577, Drossopoulou, Sophia, Susan Eisenbach, and Sarfraz Khurshid [Sumii]
     perhaps be (un)capitalized like: "Is the Java type system sound?"
 
 
-p. 579, lines -7 and -4 [Sumii]
+p. 579, lines -7 and -4 [Sumii **]
     "Garrigue, Jaques"
     ->
     "Garrigue, Jacques"
 
 
-p. 580, Grattan-Guinness, Ivor [Sumii]
+p. 580, Grattan-Guinness, Ivor [Sumii **]
     Since this is a book (not a paper), the title should be in the
     headline style: "The Search for Mathematical Roots, 1870-1940:
     Logics, Set Theories and the Foundations of Mathematics from
     Cantor through Russell to Goedel".
 
 
-p. 582, Hennessy, Matthew [Sumii]
+p. 582, Hennessy, Matthew [Sumii **]
     "A Semantics of"
     ->
     "The Semantics of"
@@ -1605,29 +1581,29 @@ p. 582, Hennessy, Matthew [Sumii]
     https://www.scss.tcd.ie/Matthew.Hennessy/slexternal/resources/sembookWiley.pdf
 
 
-p. 584, line 3 [Sumii]
+p. 584, line 3 [Sumii **]
     "1,2, ...,\omega"
     ->
     "1,2,...,\omega"
 
 
-p. 586, line 9 [Sumii]
+p. 586, line 9 [Sumii **]
     "DEXPTIME" should be in regular (not small) capital letters.
 
 
-p. 589, McKinna, James and Robert Pollack [Sumii]
+p. 589, McKinna, James and Robert Pollack [Sumii **]
     "Pure Type Sytems formalized"
     ->
     "Pure Type Systems formalized"
 
 
-p. 595, Plasmeijer, Marinus J. [Sumii]
+p. 595, Plasmeijer, Marinus J. [Sumii **]
     "CLEAN: a programming environment"
     ->
     "CLEAN: A programming environment"
 
 
-p. 596, Remy, Didier and Jerome Vouillon [Sumii]
+p. 596, Remy, Didier and Jerome Vouillon [Sumii **]
     "Theory And Practice of Object Systems"
     ->
     "Theory and Practice of Object Systems"
@@ -1638,34 +1614,36 @@ p. 596, Remy, Didier and Jerome Vouillon [Sumii]
     http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1096-9942
 
 
-p. 599, Studer, Thomas [Sumii]
+p. 599, Studer, Thomas [Sumii **]
     "featherweight java"
     ->
     "Featherweight Java"
 
 
-p. 600, line 7 [Sumii]
+p. 600, line 7 [Sumii **]
     "TIL : A type-directed"
     ->
     "TIL: A type-directed"
 
 
-p. 603, Yelick, Kathy, ... [Sumii]
+p. 603, Yelick, Kathy, ... [Sumii **]
     "Titanium: a high-performance"
     ->
     "Titanium: A high-performance"
 
 
-p. 608, right [Sumii]
+p. 608, right [Sumii **]
     The item "equi-recursive types" appears twice; it should be
     unified.
 
 
-p. 610, left, "garbage collection" [Sumii]
+p. 610, left, "garbage collection" [Sumii **]
     "158-165"
     ->
     "158"
 
 
-p. 615, under "references" [Sumii]
+p. 615, under "references" [Sumii **]
     The subitems "and subtyping" and "subtyping" should be unified.
+
+
