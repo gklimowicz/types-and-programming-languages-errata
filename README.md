@@ -56,3 +56,8 @@ and expand the lines back to something like their original form.
 We take no care to deal with page numbers
 that are roman numerals to make sure they show up first.
 It just worked out that way.
+
+# Manual updates
+The file `errata-combined-published-2022-09-20.txt` is the version as published by Pierce on his web site at [https://www.cis.upenn.edu/~bcpierce/tapl/].
+
+The file `errata-sumii-2022-09-20.txt` is on update to that file based on additions found by one of Sumii's students. I expect Pierce to update his version accordingly.
