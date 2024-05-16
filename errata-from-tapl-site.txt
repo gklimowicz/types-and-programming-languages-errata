@@ -272,12 +272,12 @@ p. 120, Theorem 11.3.1 [Pierce 3rd ed.]
     The first part of the Theorem doesn't hold, for a couple of reasons.
     First, the statement in the "if" direction should read:
 
-    if e(t) -> u, then there is a lambda-E term t' such that u = e(t') and
-    t -> t'
+        if e(t) -> u, then there is a lambda-E term t' such that u = e(t') and
+        t -> t'
 
     Second, the E-SeqNext rule should be changed to read
 
-    v1; t2 -> t2
+        v1; t2 -> t2
 
     (with v1 in place of unit), to match the semantics of E-AppAbs.
 
