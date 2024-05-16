@@ -1081,9 +1081,6 @@ p. 497, subcase g1 = succ g1 [Pierce 1st ed. **]
                                                    w
     after a final instance of E-If-Wrong yields g -->* wrong
 
-p. 499, 4.2.1 [Pierce 1st ed. **]
-    the constructor 'Some' was incorrectly typeset (twice) as \exists
-
 p. 499, Lemma A.8, E-IfTrue and E-IfFalse cases [Pierce 1st ed. **]
     the second t_2 should be t_3
 
@@ -1101,6 +1098,9 @@ p. 499, Proof of Proposition A.9 [Sumii **]
       if t --> t' and t' ==> v, then t ==> v
 
     by induction on the derivation of t --> t'.
+
+p. 499, 4.2.1 [Pierce 1st ed. **]
+    the constructor 'Some' was incorrectly typeset (twice) as \exists
 
 p. 500, solution 5.2.4 [Pierce 1st ed. *]
     the names of the arguments m and n should be exchanged
