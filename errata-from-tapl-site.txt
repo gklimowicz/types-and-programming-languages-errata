@@ -639,7 +639,7 @@ p. 302, Exercise 21.8.5 [Pierce 1st ed. **]
 p. 303, line 13 [Pierce 1st ed. *]
     "Q \in T \times T" should be "Q \subseteq T \times T"
 
-p. 303, line -8 [Pierce 1st ed. *]
+p. 303, 8th line from the bottom [Pierce 1st ed. *]
     "we claim that R={...}" -> "we claim that R={...} is such a set"
 
 p. 308, line 6 [Sumii *]
@@ -738,7 +738,7 @@ p. 337, line 3 [Sumii]
     ->
     "Algorithm W of Damas and Milner"
 
-p. 337, line -7 [Sumii]
+p. 337, 7th line from the bottom [Sumii]
     "Remy"
     ->
     "R\'emy"
@@ -753,7 +753,7 @@ p. 339, second sentence below the definition of multiple doubling functions [Pie
 
      "If we want to apply".
 
-p. 342, line -7 [Sumii *]
+p. 342, 7th line from the bottom [Sumii *]
     "for t"
     ->
     "for t2"
@@ -861,7 +861,7 @@ p. 405, proof of 26.4.14 (near the end) [Pierce 3rd ed.]
 p. 405, proof of 26.4.15 [Pierce 3rd ed.]
     The E-TApp1 should be E-TApp.
 
-p. 408, line -6 [Sumii]
+p. 408, 6th line from the bottom [Sumii]
     "Curien and Ghelli (1992, Ghelli, 1990)"
     ->
     "Curien and Ghelli (1992; Ghelli, 1990)"
@@ -947,7 +947,7 @@ p. 429, line 10, "equivalent to \neg S \/ T" [Sumii]
 p. 431, line 4 [Sumii]
     Here, a "subtype statement" means a "subtyping statement".
 
-p. 433, l -4 [Pierce 1st ed. *]
+p. 433, 4th line from the bottom [Pierce 1st ed. *]
       \Gamma U \/ T = J.
 
     should be replaced with
@@ -962,19 +962,19 @@ p. 436, line 11 [Sumii *]
     "supertypes of T"
 
 p. 436, Exercise 28.7.2 [Sumii **]
-    The solution has an error; see p. 559, line -6 [Sumii **]
-    and p. 559, line -6 [Sumii]
+    The solution has an error; see p. 559, 6th line from the bottom [Sumii **]
+    and p. 559, 6th line from the bottom [Sumii]
 
 p. 439, para 3, line 2 [Pierce 1st ed. *]
     "type constructorstype operators" should be just "type constructors"
 
-p. 441, line -3 [Sumii]
+p. 441, 3rd line from the bottom [Sumii]
     The left parenthesis should be in typewriter (heavy) font.
 
 p. 444, Exercise 29.1.1 [Sumii]
     The solution has an error; see p. 560, Figure A-2, left, line 2 [Sumii]
 
-p. 444, line -1 [Sumii]
+p. 444, last line [Sumii]
     The last ";" should be dropped.
 
 p. 444, footnote [Pierce 1st ed. *]
@@ -1008,7 +1008,7 @@ p. 462, near the middle [Sumii]
     ->
     "family of types indexed by types"
 
-p. 468, line -7 [Sumii]
+p. 468, 7th line from the bottom [Sumii]
     "If we let Top[*] = Top and define(maximal elements of higher kinds)"
     ->
     "If we let Top[*] = Top and define"
@@ -1062,7 +1062,7 @@ p. 494, Lemma A.1 [Sumii]
 
     (The online errata lacks "with s \neq t".)
 
-p. 496, line -7 [Sumii]
+p. 496, 7th line from the bottom [Sumii]
     "Theorem 3.5.14"
     ->
     "The property in Exercise 3.5.14"
@@ -1260,7 +1260,7 @@ p. 550, near the middle [Sumii *]
 p. 554, Solution 25.2.1, last line [Sumii *]
     \uparrow_0^d(T) and \uparrow^d(T) should be swapped.
 
-p. 559, line -6 [Sumii **]
+p. 559, 6th line from the bottom [Sumii **]
     "\neg S = \forall X<:S.X"
     ->
     "\neg S = S->Top"
@@ -1268,7 +1268,7 @@ p. 559, line -6 [Sumii **]
     (We are not supposed to use \forall here!  In fact, it suffices to
     define \neg so that it is just contravariant.)
 
-p. 559, line -6 [Sumii]
+p. 559, 6th line from the bottom [Sumii]
     "[[X1<:T1,,...,Xn<:Tn]]"
     ->
     "[[X1<:T1,...,Xn<:Tn]]"
@@ -1287,7 +1287,7 @@ p. 561, near the middle [Sumii *]
     ->
     "T2"
 
-p. 566, line -3 [Sumii *]
+p. 566, 3rd line from the bottom [Sumii *]
     "T1 x T2"
     ->
     "T11 x T12"
