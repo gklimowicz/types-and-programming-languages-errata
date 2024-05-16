@@ -1118,7 +1118,7 @@ p. 503, solution to 6.1.5 [Pierce 3rd ed.]
 p. 505 [Pierce 1st ed. **]
     exercise 9.4.1 is misfiled (it can be found between 9.2.3 and 9.3.2)
 
-p. 506 [Pierce 1st ed. **]
+p. 505, solution to 9.3.2 [Pierce 1st ed. **]
     "....  But this means that size(T1) is strictly greater than size(T1
     -> T2), ..." should read "... size(T1) is equal to size(T1 -> T2) ..."
 
