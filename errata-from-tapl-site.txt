@@ -260,7 +260,7 @@ p. 108, Exercise 9.4.1 [Pierce 1st ed. **]
 p. 110, part 2 of Theorem 9.5.2 [Pierce 3rd ed.]
     the first "typed" should be "untyped"
 
-p. 114, l -10 [Pierce 3rd ed.]
+p. 114, 10th line from the bottom [Pierce 3rd ed.]
     "the variable type @'a@" should be "the type variable @'a@"
 
 p. 118, line 2 [Sumii *]
