@@ -242,8 +242,7 @@ p. 106, proof of 9.3.8 [Pierce 3rd ed.]
 p. 107, end of first para [Pierce 1st ed. **]
     The annotation on y should be T2, not T1
 
-p. 107, Preservation theorem (and other preservation theorems throughout [Pierce 3rd ed.]
-       the text)
+p. 107, Preservation theorem (and other preservation theorems throughout the text) [Pierce 3rd ed.]
 
     The theorem is correct as stated, but we don't really need this
     powerful a version of it for present purposes.  Since (a) we have
