@@ -1159,6 +1159,14 @@ p. 510, near the middle [Sumii *]
     "T-Let"
     (twice)
 
+p. 512, Solution 12.1.7 [Pierce 1st ed. *]
+    The case for T-If proceeds by induction on T.  This is more complicated
+    than necessary. By the induction, we know R bool t1, R T t2 and R T
+    t3. Since we know R bool t1, we know that t1 halts and is a bool. Hence,
+    the conditional will evaluate either to t2 or to t3. Then, by
+    preservation of R under evaluation, it suffices to show R T t2 or R T
+    t3, but they are immediate by induction.  [Thanks to Edsko de Vries.]
+
 p. 512, Solution 12.1.7 [Sumii *]
     Apply the online errata (for the 1st printing) but replace t1, t2,
     and t3 with \sigma t1, \sigma t2, and \sigma t3, respectively.
