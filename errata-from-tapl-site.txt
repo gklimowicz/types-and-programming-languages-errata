@@ -427,7 +427,7 @@ p. 176, line 10 [Sumii]
     ->
     "In T-Exn we demand"
 
-p. 177, l 8 [Pierce 3rd ed.]
+p. 177, line 8 [Pierce 3rd ed.]
     "l_n:t_n" -> "l_n:T_n"
 
 p. 177, line -15, "it falls through to the else clause" [Sumii]
