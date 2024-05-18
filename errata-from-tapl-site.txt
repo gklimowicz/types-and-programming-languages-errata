@@ -504,10 +504,10 @@ p. 226, footnote 1: [Pierce 1st ed. **]
     "Other languages, such as  and , ...".  The words "Java" and "C++"
     are missing
 
-p. 232, line -3 [Pierce 3rd ed.]
+p. 232, 3rd line from the bottom [Pierce 3rd ed.]
     "C++ and ," should be "C++ and Java,"
 
-p. 237, line -7 [Sumii *]
+p. 237, line 7th line from the bottom [Sumii *]
     "E-Fix"
     ->
     "E-FixBeta"
