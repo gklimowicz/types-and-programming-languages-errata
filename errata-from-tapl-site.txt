@@ -51,7 +51,7 @@ p. 28, 11th line from the bottom [Pierce 3rd ed.]
      S_i should be S_j (that is, it should read "t_1, t_2, t_3 are elements
      of S_j")
 
-p. 28, line -12 [Sumii]
+p. 28, 12th line from the bottom [Sumii]
     "by condition (2)"
     ->
     "by condition 2"
@@ -65,7 +65,7 @@ p. 40, Exercise 3.5.13 [Pierce 3rd ed.]
 p. 40, Exercise 3.5.13 [Sumii]
     The solution has an error; see p. 494, Lemma A.1 [Sumii]
 
-p. 40, line -5 [Sumii]
+p. 40, 5th line from the bottom [Sumii]
     "containing"
     ->
     "satisfying"
@@ -77,7 +77,7 @@ p. 42, Exercise 3.5.16 [Pierce 3rd ed.]
     The solution has an error; see p. 496, solution to 3.5.16 [Pierce 3rd ed.]
 
 p. 42, Exercise 3.5.16 [Sumii]
-    The solution has an error; see p. 496, line -7 [Sumii]
+    The solution has an error; see p. 496, 7th line from the bottom [Sumii]
 
 p. 42, Exercise 3.5.16 [Pierce 1st ed. **]
     The solution has an error; see p. 497, subcase g1 = succ g1 [Pierce 1st ed. **]
@@ -400,7 +400,7 @@ p. 162, 166 [Pierce 3rd ed.]
 p. 162, Exercise 13.3.1 [Pierce 3rd ed.]
     The solution has an error; see p. 515, solution to 13.3.1 [Pierce 3rd ed.]
 
-p. 162, line -3 [Sumii]
+p. 162, 3rd line from the bottom [Sumii]
     "l2" should be in math style.
 
 p. 163 [Pierce 3rd ed.]
@@ -435,7 +435,7 @@ p. 176, line 10 [Sumii]
 p. 177, line 8 [Pierce 3rd ed.]
     "l_n:t_n" -> "l_n:T_n"
 
-p. 177, line -15, "it falls through to the else clause" [Sumii]
+p. 177, 15th line from the bottom, "it falls through to the else clause" [Sumii]
     Perhaps "the wildcard clause" may be more accurate.
 
 p. 184 [Pierce 3rd ed.]
@@ -623,7 +623,7 @@ p. 291, Exercise 21.5.2, "subtyping relations" [Sumii]
     Note that there is also an "algorithmic subtyping relation"
     (Definition 16.1.4), which is different.
 
-p. 292, line -10 [Sumii]
+p. 292, 10th line from the bottom [Sumii]
     "consistent"
     ->
     "F-consistent"
@@ -1314,7 +1314,7 @@ p. 561, near the middle [Sumii *]
 p. 562, solution to 30.5.1 [Pierce 3rd ed. **]
     FloatList should be just List
 
-p. 566, line -3 [Sumii *]
+p. 566, 3rd line from the bottom [Sumii *]
     "T1 x T2"
     ->
     "T11 x T12"
