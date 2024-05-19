@@ -39,7 +39,8 @@ BEGIN {
 
     # Create table to reference.
     # The author is not proud of this.
-# From errata-pierce-1.txt
+
+    # From errata-pierce-1.txt
     exercise["497%subcase g1 = succ g1"] = "3.5.16"
         page["497%subcase g1 = succ g1"] = 42
     exercise["499%Lemma A.8, E-IfTrue and E-IfFalse cases"] = "3.5.17"
@@ -61,7 +62,9 @@ BEGIN {
     exercise["541%proof sketch of Lemma A.17"] = "21.8.5"
         page["541%proof sketch of Lemma A.17"] = 302
 
-    # There were no exercise errata in errata-pierce-2.txt
+    # From errata-pierce-2.txt
+    exercise["502%solution to 5.3.6"] = 5.3.6"
+        page["502%solution to 5.3.6"] = 72
 
     # From errata-pierce-3.txt
     exercise["494%solution to exercise 3.5.13"] = "3.5.13"
@@ -100,8 +103,6 @@ BEGIN {
         page["496%line -7"] = 42
     exercise["499%Proof of Proposition A.9"] = "3.5.17"
         page["499%Proof of Proposition A.9"] = 42
-    exercise["502%solution to 5.3.6"] = 5.3.6"
-        page["502%solution to 5.3.6"] = 72
     exercise["506%near the middle"] = "9.3.3"
         page["506%near the middle"] = 104
     exercise["510%near the middle"] = "11.8.2"
@@ -130,7 +131,6 @@ BEGIN {
         page["561%near the middle"] = 455
     exercise["562%solution to 30.5.1"] = "30.5.1"
         page["562%solution to 30.5.1"] = 463
-
 }
 
 function dprint(_s) {
