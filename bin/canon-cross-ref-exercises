@@ -100,6 +100,8 @@ BEGIN {
         page["496%line -7"] = 42
     exercise["499%Proof of Proposition A.9"] = "3.5.17"
         page["499%Proof of Proposition A.9"] = 42
+    exercise["502%solution to 5.3.6"] = 5.3.6"
+        page["502%solution to 5.3.6"] = 72
     exercise["506%near the middle"] = "9.3.3"
         page["506%near the middle"] = 104
     exercise["510%near the middle"] = "11.8.2"
@@ -126,6 +128,8 @@ BEGIN {
         page["560%Figure A-2, left, line 2"] = 444
     exercise["561%near the middle"] = "30.3.8"
         page["561%near the middle"] = 455
+    exercise["562%solution to 30.5.1"] = "30.5.1"
+        page["562%solution to 30.5.1"] = 463
 
 }
 
