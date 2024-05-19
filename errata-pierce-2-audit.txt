@@ -1,0 +1,46 @@
+Errata for TYPES AND PROGRAMMING LANGUAGES  (2nd printing)
+==========================================================
+
+This section lists all the errors that I'm aware of in the second
+printing of TAPL (not counting the errors listed above).  They should be
+corrected in the third printing.
+
+SUBSTANTIVE ERRORS
+------------------
+
+p 96, second line of proof of 8.3.2 [[gak: in TAPL web errata]]
+
+    T-IsZero should be T-Zero
+
+    This error does *not* appear in the first printing.  :-(
+
+p 280: [[gak: in TAPL web errata]]
+
+    The citations for early papers on syntactic properties of recursive
+    types (without subtyping) should also mention an paper by Claude
+    Pair, published in Algol Bulletin n. 31, March 1970, which contains
+    what appears to be the first proof of the decidability of equality
+    for equi-recursive types.
+
+    A scanned copy of the paper has kindly been made available by Pierre
+    Lescanne, at the following URL:
+
+      http://www.ens-lyon.fr/~plescann/PUBLICATIONS/RecursiveTypes/
+
+p 354, Theorem 23.6.2 [[gak: in TAPL web errata]]
+
+    The cited articles by Boehm (85 and 89) actually prove a slight
+    variant of the stated result.  Other variants (closer to the stated
+    one) can be found in Pfenning (1993a).  Surprisingly, though, the
+    decidability of precisely this partial type inference problem appears
+    still to be open.
+
+p 502, solution to 5.3.6 [[gak: missing from TAPL web errata]]
+
+    In the full beta-reduction rules, one is missing:
+
+               t1 -> t1'
+            ---------------  (E-Abs)
+            \x.t1 -> \x.t1'
+
+    Also, na1' in rule E-App1 should be renamed t1'.
