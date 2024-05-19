@@ -174,6 +174,9 @@ p. 72, line 5 [Pierce 3rd ed.]
     "values can be arbitrary lambda-terms" should read "values can be
     arbitrary lambda-abstractions"
 
+p. 72, Exercise 5.3.6 [Pierce 2nd ed. **]
+    The solution has an error; see p. 502, solution 5.3.6 [Pierce 2nd ed. **]
+
 p. 73, exercise 5.3.8 [Pierce 3rd ed.]
     4.2.2 should be 3.5.17
 
@@ -243,7 +246,6 @@ p. 107, end of first para [Pierce 1st ed. **]
     The annotation on y should be T2, not T1
 
 p. 107, Preservation theorem (and other preservation theorems throughout the text) [Pierce 3rd ed.]
-
     The theorem is correct as stated, but we don't really need this
     powerful a version of it for present purposes.  Since (a) we have
     chosen only to be interested in evaluating closed terms and (b) the
@@ -357,6 +359,9 @@ p. 152, line 3 [Pierce 3rd ed.]
 
 p. 152, Exercise 12.1.7 [Pierce 3rd ed.]
     "Figure 3-1" should be "Figure 8-1"
+
+p. 152, Exercise 12.1.7 [Pierce 1st ed. *]
+    The solution has an error; see p. 512, Solution 12.1.7 [Pierce 1st ed. *]
 
 p. 152, Exercise 12.1.7 [Sumii *]
     The solution has an error; see p. 512, Solution 12.1.7 [Sumii *]
@@ -507,7 +512,7 @@ p. 226, footnote 1: [Pierce 1st ed. **]
 p. 232, 3rd line from the bottom [Pierce 3rd ed.]
     "C++ and ," should be "C++ and Java,"
 
-p. 237, line 7th line from the bottom [Sumii *]
+p. 237, 7th line from the bottom [Sumii *]
     "E-Fix"
     ->
     "E-FixBeta"
@@ -517,25 +522,25 @@ p. 243, line 3 [Pierce 3rd ed.]
     should be
     Source InstrCounter <: Source SetCounter
 
-p. 248, line -1 [Sumii *]
+p. 248, last line [Sumii *]
     It is unknown what "enumerations" mean here.
 
-p. 255, line -8 [Sumii]
+p. 255, 8th line from the bottom [Sumii]
     "this.f1=f1;...;this.fn=fn;"
     ->
     "this.f1=f1;...this.fn=fn;"
 
-p. 256, line -3, "the <: relation is antisymmetric" [Sumii *]
+p. 256, 3rd line from the bottom, "the <: relation is antisymmetric" [Sumii *]
     (Cf. p. 257, Exercise 19.4.1 and p. 530, Solution 19.4.1)
 
     In addition, C should not be equal to D in any class declaration class C extends D {...}.
 
-p. 261, line -6 [Sumii *]
+p. 261, 6th line from the bottom [Sumii *]
     "cannot perform a downcast"
     ->
     "cannot perform a cast"
 
-p. 263, line -9 [Sumii *]
+p. 263, 9th line from the bottom [Sumii *]
     "the original used a nondeterministic beta-reduction relation"
     ->
     "the original used a nondeterministic reduction relation"
@@ -1007,6 +1012,9 @@ p. 462, near the middle [Sumii]
     ->
     "family of types indexed by types"
 
+p. 463, Exercise 30.5.1 [Pierce 3rd ed. **]
+    The solution has an error; see p. 562, solution to 30.5.1 [Pierce 3rd ed. **]
+
 p. 468, 7th line from the bottom [Sumii]
     "If we let Top[*] = Top and define(maximal elements of higher kinds)"
     ->
@@ -1106,6 +1114,15 @@ p. 500, solution 5.2.4 [Pierce 1st ed. *]
 
 p. 501, solution to 5.2.11 [Pierce 3rd ed.]
     in the second to last line of the solution, sumlist should be sumlist'
+
+p. 502, solution to 5.3.6 [Pierce 2nd ed. **]
+    In the full beta-reduction rules, one is missing:
+
+               t1 -> t1'
+            ---------------  (E-Abs)
+            \x.t1 -> \x.t1'
+
+    Also, na1' in rule E-App1 should be renamed t1'.
 
 p. 503, solution 5.3.8 [Pierce 1st ed. **]
     t' should be called v
@@ -1294,7 +1311,10 @@ p. 561, near the middle [Sumii *]
     ->
     "T2"
 
-p. 566, 3rd line from the bottom [Sumii *]
+p. 562, solution to 30.5.1 [Pierce 3rd ed. **]
+    FloatList should be just List
+
+p. 566, line -3 [Sumii *]
     "T1 x T2"
     ->
     "T11 x T12"
@@ -1413,3 +1433,8 @@ p. 610, left, "garbage collection" [Sumii]
 
 p. 615, under "references" [Sumii]
     The subitems "and subtyping" and "subtyping" should be unified.
+
+p. 621, left [Sumii]
+    "Top[K]"
+    ->
+    "Top[K] (maximal elements of higher kinds)"
