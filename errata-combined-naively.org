@@ -3,7 +3,7 @@
 #+author: Gary Klimowicz
 
 
-*  Errata for TYPES AND PROGRAMMING LANGUAGES  (1st printing)
+* Errata for TYPES AND PROGRAMMING LANGUAGES  (1st printing)
 
 The following errors appear only in the first printing -- they should all
 be corrected in the second printing (Summer, 2002).  The errors listed
